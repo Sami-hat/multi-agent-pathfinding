@@ -1,0 +1,865 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 44
+# CSE_active_eliminated_expressions = 252
+# CSE_active_total_size = 252
+**VARIABLES**
+DISCRETE path_00001_00001_00001 #
+{1..2}
+DISCRETE path_00001_00001_00002 #
+{1..2}
+DISCRETE path_00001_00002_00001 #
+{1..3}
+DISCRETE path_00001_00002_00002 #
+{1..3}
+DISCRETE path_00001_00003_00001 #
+{1..4}
+DISCRETE path_00001_00003_00002 #
+{1..4}
+DISCRETE path_00001_00004_00001 #
+{1..4}
+DISCRETE path_00001_00004_00002 #
+{1..4}
+DISCRETE path_00001_00005_00001 #
+{1..4}
+DISCRETE path_00001_00005_00002 #
+{1..4}
+DISCRETE path_00001_00006_00001 #
+{1..4}
+DISCRETE path_00001_00006_00002 #
+{1..4}
+DISCRETE path_00002_00001_00001 #
+{1..2}
+DISCRETE path_00002_00001_00002 #
+{3..4}
+DISCRETE path_00002_00002_00001 #
+{1..3}
+DISCRETE path_00002_00002_00002 #
+{2..4}
+DISCRETE path_00002_00003_00001 #
+{1..4}
+DISCRETE path_00002_00003_00002 #
+{1..4}
+DISCRETE path_00002_00004_00001 #
+{1..4}
+DISCRETE path_00002_00004_00002 #
+{1..4}
+DISCRETE path_00002_00005_00001 #
+{1..4}
+DISCRETE path_00002_00005_00002 #
+{1..4}
+DISCRETE path_00002_00006_00001 #
+{1..4}
+DISCRETE path_00002_00006_00002 #
+{1..4}
+DISCRETE path_00003_00001_00001 #
+{3..4}
+DISCRETE path_00003_00001_00002 #
+{1..2}
+DISCRETE path_00003_00002_00001 #
+{2..4}
+DISCRETE path_00003_00002_00002 #
+{1..3}
+DISCRETE path_00003_00003_00001 #
+{1..4}
+DISCRETE path_00003_00003_00002 #
+{1..4}
+DISCRETE path_00003_00004_00001 #
+{1..4}
+DISCRETE path_00003_00004_00002 #
+{1..4}
+DISCRETE path_00003_00005_00001 #
+{1..4}
+DISCRETE path_00003_00005_00002 #
+{1..4}
+DISCRETE path_00003_00006_00001 #
+{1..4}
+DISCRETE path_00003_00006_00002 #
+{1..4}
+DISCRETE path_00004_00001_00001 #
+{3..4}
+DISCRETE path_00004_00001_00002 #
+{3..4}
+DISCRETE path_00004_00002_00001 #
+{2..4}
+DISCRETE path_00004_00002_00002 #
+{2..4}
+DISCRETE path_00004_00003_00001 #
+{1..4}
+DISCRETE path_00004_00003_00002 #
+{1..4}
+DISCRETE path_00004_00004_00001 #
+{1..4}
+DISCRETE path_00004_00004_00002 #
+{1..4}
+DISCRETE path_00004_00005_00001 #
+{1..4}
+DISCRETE path_00004_00005_00002 #
+{1..4}
+DISCRETE path_00004_00006_00001 #
+{1..4}
+DISCRETE path_00004_00006_00002 #
+{1..4}
+DISCRETE inventory_00001_00001 #
+{0..4}
+DISCRETE inventory_00001_00002 #
+{0..4}
+DISCRETE inventory_00001_00003 #
+{0..4}
+DISCRETE inventory_00001_00004 #
+{0..4}
+DISCRETE inventory_00001_00005 #
+{0..4}
+DISCRETE inventory_00001_00006 #
+{0..4}
+DISCRETE inventory_00002_00001 #
+{0..4}
+DISCRETE inventory_00002_00002 #
+{0..4}
+DISCRETE inventory_00002_00003 #
+{0..4}
+DISCRETE inventory_00002_00004 #
+{0..4}
+DISCRETE inventory_00002_00005 #
+{0..4}
+DISCRETE inventory_00002_00006 #
+{0..4}
+DISCRETE inventory_00003_00001 #
+{0..4}
+DISCRETE inventory_00003_00002 #
+{0..4}
+DISCRETE inventory_00003_00003 #
+{0..4}
+DISCRETE inventory_00003_00004 #
+{0..4}
+DISCRETE inventory_00003_00005 #
+{0..4}
+DISCRETE inventory_00003_00006 #
+{0..4}
+DISCRETE inventory_00004_00001 #
+{0..4}
+DISCRETE inventory_00004_00002 #
+{0..4}
+DISCRETE inventory_00004_00003 #
+{0..4}
+DISCRETE inventory_00004_00004 #
+{0..4}
+DISCRETE inventory_00004_00005 #
+{0..4}
+DISCRETE inventory_00004_00006 #
+{0..4}
+DISCRETE interval_00001_00001 #
+{1..4}
+DISCRETE interval_00001_00002 #
+{1..5}
+DISCRETE interval_00001_00003 #
+{3..6}
+DISCRETE interval_00002_00001 #
+{1..4}
+DISCRETE interval_00002_00002 #
+{1..5}
+DISCRETE interval_00002_00003 #
+{3..6}
+DISCRETE interval_00003_00001 #
+{1..4}
+DISCRETE interval_00003_00002 #
+{1..5}
+DISCRETE interval_00003_00003 #
+{3..6}
+DISCRETE interval_00004_00001 #
+{1..4}
+DISCRETE interval_00004_00002 #
+{1..5}
+DISCRETE interval_00004_00003 #
+{3..6}
+DISCRETE robot_task_occurance_00001_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00004 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00004 #
+{0..1}
+DISCRETE robot_task_occurance_00003_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00003_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00003_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00003_00004 #
+{0..1}
+DISCRETE robot_task_occurance_00004_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00004_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00004_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00004_00004 #
+{0..1}
+BOOL robot_moves_00001_00000 #
+BOOL robot_moves_00001_00001 #
+BOOL robot_moves_00001_00002 #
+BOOL robot_moves_00001_00003 #
+BOOL robot_moves_00001_00004 #
+BOOL robot_moves_00001_00005 #
+BOOL robot_moves_00001_00006 #
+BOOL robot_moves_00002_00000 #
+BOOL robot_moves_00002_00001 #
+BOOL robot_moves_00002_00002 #
+BOOL robot_moves_00002_00003 #
+BOOL robot_moves_00002_00004 #
+BOOL robot_moves_00002_00005 #
+BOOL robot_moves_00002_00006 #
+BOOL robot_moves_00003_00000 #
+BOOL robot_moves_00003_00001 #
+BOOL robot_moves_00003_00002 #
+BOOL robot_moves_00003_00003 #
+BOOL robot_moves_00003_00004 #
+BOOL robot_moves_00003_00005 #
+BOOL robot_moves_00003_00006 #
+BOOL robot_moves_00004_00000 #
+BOOL robot_moves_00004_00001 #
+BOOL robot_moves_00004_00002 #
+BOOL robot_moves_00004_00003 #
+BOOL robot_moves_00004_00004 #
+BOOL robot_moves_00004_00005 #
+BOOL robot_moves_00004_00006 #
+DISCRETE total_moves #
+{4..24}
+DISCRETE min_moves #
+{4..24}
+BOOL aux3 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00004_00002_00001 - path_00004_00003_00001)| + |(path_00004_00002_00002 - path_00004_00003_00002)|)
+BOOL aux4 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00003_00001_00001 - path_00003_00002_00001)| + |(path_00003_00001_00002 - path_00003_00002_00002)|)
+BOOL aux5 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00004_00001 - path_00002_00005_00001)| + |(path_00002_00004_00002 - path_00002_00005_00002)|)
+BOOL aux6 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00002_00001 - path_00002_00003_00001)| + |(path_00002_00002_00002 - path_00002_00003_00002)|)
+BOOL aux7 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00005_00001 - path_00001_00006_00001)| + |(path_00001_00005_00002 - path_00001_00006_00002)|)
+BOOL aux8 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00004_00001 - path_00001_00005_00001)| + |(path_00001_00004_00002 - path_00001_00005_00002)|)
+BOOL aux9 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00004_00005_00001 + path_00004_00004_00001)| + |( - path_00004_00005_00002 + path_00004_00004_00002)|)
+BOOL aux10 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00003_00005_00001 - path_00003_00006_00001)| + |(path_00003_00005_00002 - path_00003_00006_00002)|)
+BOOL aux11 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00001_00001 - path_00001_00002_00001)| + |(path_00001_00001_00002 - path_00001_00002_00002)|)
+BOOL aux12 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00004_00001_00001 - path_00004_00002_00001)| + |(path_00004_00001_00002 - path_00004_00002_00002)|)
+BOOL aux13 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00004_00003_00001 - path_00004_00004_00001)| + |(path_00004_00003_00002 - path_00004_00004_00002)|)
+BOOL aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00003_00002_00001 - path_00003_00003_00001)| + |(path_00003_00002_00002 - path_00003_00003_00002)|)
+BOOL aux15 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00002_00001 - path_00001_00003_00001)| + |(path_00001_00002_00002 - path_00001_00003_00002)|)
+BOOL aux16 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00001_00004_00001 + path_00001_00003_00001)| + |( - path_00001_00004_00002 + path_00001_00003_00002)|)
+BOOL aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00002_00004_00001 + path_00002_00003_00001)| + |( - path_00002_00004_00002 + path_00002_00003_00002)|)
+BOOL aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00003_00005_00001 + path_00003_00004_00001)| + |( - path_00003_00005_00002 + path_00003_00004_00002)|)
+BOOL aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00005_00001 - path_00002_00006_00001)| + |(path_00002_00005_00002 - path_00002_00006_00002)|)
+BOOL aux20 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00003_00003_00001 - path_00003_00004_00001)| + |(path_00003_00003_00002 - path_00003_00004_00002)|)
+BOOL aux21 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00004_00005_00001 - path_00004_00006_00001)| + |(path_00004_00005_00002 - path_00004_00006_00002)|)
+BOOL aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00001_00001 - path_00002_00002_00001)| + |(path_00002_00001_00002 - path_00002_00002_00002)|)
+DISCRETE aux23 #Active-CSE: 13 occurrences of this expression or equivalent: (4*path_00001_00003_00001 + path_00001_00003_00002)
+{5..17}
+DISCRETE aux24 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00002_00001_00001 + path_00002_00001_00002)
+{7..12}
+**CONSTRAINTS**
+w-inintervalset(aux24, [7,8,11,12])
+**VARIABLES**
+DISCRETE aux25 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00004_00004_00001 + path_00004_00004_00002)
+{7..20}
+DISCRETE aux26 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00004_00005_00001 + path_00004_00005_00002)
+{5..20}
+DISCRETE aux27 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00001_00005_00001 + path_00001_00005_00002)
+{5..20}
+DISCRETE aux28 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00001_00004_00001 + path_00001_00004_00002)
+{5..18}
+DISCRETE aux29 #Active-CSE: 13 occurrences of this expression or equivalent: (4*path_00004_00003_00001 + path_00004_00003_00002)
+{8..20}
+DISCRETE aux30 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00002_00004_00001 + path_00002_00004_00002)
+{5..20}
+DISCRETE aux31 #Active-CSE: 2 occurrences of this expression or equivalent: (path_00002_00001_00001 - path_00002_00001_00002)
+{-3..-2}
+DISCRETE aux32 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00001_00001_00001 + path_00001_00001_00002)
+{5..9}
+**CONSTRAINTS**
+w-inintervalset(aux32, [5,6,9,9])
+**VARIABLES**
+DISCRETE aux33 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00003_00004_00001 + path_00003_00004_00002)
+{5..20}
+DISCRETE aux34 #Active-CSE: 17 occurrences of this expression or equivalent: (4*path_00004_00002_00001 + path_00004_00002_00002)
+{12..20}
+**CONSTRAINTS**
+w-inintervalset(aux34, [12,12,14,16,18,20])
+**VARIABLES**
+DISCRETE aux35 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00002_00005_00001 + path_00002_00005_00002)
+{5..20}
+DISCRETE aux36 #Active-CSE: 17 occurrences of this expression or equivalent: (4*path_00001_00002_00001 + path_00001_00002_00002)
+{5..13}
+**CONSTRAINTS**
+w-inintervalset(aux36, [5,7,9,11,13,13])
+**VARIABLES**
+DISCRETE aux37 #Active-CSE: 13 occurrences of this expression or equivalent: (4*path_00003_00003_00001 + path_00003_00003_00002)
+{5..20}
+DISCRETE aux38 #Active-CSE: 17 occurrences of this expression or equivalent: (4*path_00003_00002_00001 + path_00003_00002_00002)
+{9..19}
+**CONSTRAINTS**
+w-inintervalset(aux38, [9,11,13,15,17,19])
+**VARIABLES**
+DISCRETE aux39 #Active-CSE: 2 occurrences of this expression or equivalent: (path_00001_00001_00001 + path_00001_00001_00002)
+{2..3}
+DISCRETE aux40 #Active-CSE: 17 occurrences of this expression or equivalent: (4*path_00002_00002_00001 + path_00002_00002_00002)
+{6..16}
+**CONSTRAINTS**
+w-inintervalset(aux40, [6,8,10,12,14,16])
+**VARIABLES**
+DISCRETE aux41 #Active-CSE: 2 occurrences of this expression or equivalent: ( - path_00003_00001_00001 + path_00003_00001_00002)
+{-3..-2}
+DISCRETE aux42 #Active-CSE: 13 occurrences of this expression or equivalent: (4*path_00002_00003_00001 + path_00002_00003_00002)
+{5..20}
+DISCRETE aux43 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00004_00001_00001 + path_00004_00001_00002)
+{16..20}
+**CONSTRAINTS**
+w-inintervalset(aux43, [16,16,19,20])
+**VARIABLES**
+DISCRETE aux44 #Active-CSE: 9 occurrences of this expression or equivalent: (4*path_00003_00001_00001 + path_00003_00001_00002)
+{13..18}
+**CONSTRAINTS**
+w-inintervalset(aux44, [13,14,17,18])
+**VARIABLES**
+DISCRETE aux45 #Active-CSE: 2 occurrences of this expression or equivalent: ( - path_00004_00001_00001 - path_00004_00001_00002)
+{-8..-7}
+DISCRETE aux46 #Active-CSE: 5 occurrences of this expression or equivalent: (4*path_00003_00005_00001 + path_00003_00005_00002)
+{5..20}
+DISCRETE aux47 #(path_00004_00002_00001 - path_00004_00003_00001)
+{-1..1}
+BOOL aux48 #|aux47|
+DISCRETE aux49 #(path_00004_00002_00002 - path_00004_00003_00002)
+{-1..1}
+BOOL aux50 #|aux49|
+DISCRETE aux51 #(path_00003_00001_00001 - path_00003_00002_00001)
+{-1..1}
+BOOL aux52 #|aux51|
+DISCRETE aux53 #(path_00003_00001_00002 - path_00003_00002_00002)
+{-1..1}
+BOOL aux54 #|aux53|
+DISCRETE aux55 #(path_00002_00004_00001 - path_00002_00005_00001)
+{-1..1}
+BOOL aux56 #|aux55|
+DISCRETE aux57 #(path_00002_00004_00002 - path_00002_00005_00002)
+{-1..1}
+BOOL aux58 #|aux57|
+DISCRETE aux59 #(path_00002_00002_00001 - path_00002_00003_00001)
+{-1..1}
+BOOL aux60 #|aux59|
+DISCRETE aux61 #(path_00002_00002_00002 - path_00002_00003_00002)
+{-1..1}
+BOOL aux62 #|aux61|
+DISCRETE aux63 #(path_00001_00005_00001 - path_00001_00006_00001)
+{-1..1}
+BOOL aux64 #|aux63|
+DISCRETE aux65 #(path_00001_00005_00002 - path_00001_00006_00002)
+{-1..1}
+BOOL aux66 #|aux65|
+DISCRETE aux67 #(path_00001_00004_00001 - path_00001_00005_00001)
+{-1..1}
+BOOL aux68 #|aux67|
+DISCRETE aux69 #(path_00001_00004_00002 - path_00001_00005_00002)
+{-1..1}
+BOOL aux70 #|aux69|
+DISCRETE aux71 #( - path_00004_00005_00001 + path_00004_00004_00001)
+{-1..1}
+BOOL aux72 #|aux71|
+DISCRETE aux73 #( - path_00004_00005_00002 + path_00004_00004_00002)
+{-1..1}
+BOOL aux74 #|aux73|
+DISCRETE aux75 #(path_00003_00005_00001 - path_00003_00006_00001)
+{-1..1}
+BOOL aux76 #|aux75|
+DISCRETE aux77 #(path_00003_00005_00002 - path_00003_00006_00002)
+{-1..1}
+BOOL aux78 #|aux77|
+DISCRETE aux79 #(path_00001_00001_00001 - path_00001_00002_00001)
+{-1..1}
+BOOL aux80 #|aux79|
+DISCRETE aux81 #(path_00001_00001_00002 - path_00001_00002_00002)
+{-1..1}
+BOOL aux82 #|aux81|
+DISCRETE aux83 #(path_00004_00001_00001 - path_00004_00002_00001)
+{-1..1}
+BOOL aux84 #|aux83|
+DISCRETE aux85 #(path_00004_00001_00002 - path_00004_00002_00002)
+{-1..1}
+BOOL aux86 #|aux85|
+DISCRETE aux87 #(path_00004_00003_00001 - path_00004_00004_00001)
+{-1..1}
+BOOL aux88 #|aux87|
+DISCRETE aux89 #(path_00004_00003_00002 - path_00004_00004_00002)
+{-1..1}
+BOOL aux90 #|aux89|
+DISCRETE aux91 #(path_00003_00002_00001 - path_00003_00003_00001)
+{-1..1}
+BOOL aux92 #|aux91|
+DISCRETE aux93 #(path_00003_00002_00002 - path_00003_00003_00002)
+{-1..1}
+BOOL aux94 #|aux93|
+DISCRETE aux95 #(path_00001_00002_00001 - path_00001_00003_00001)
+{-1..1}
+BOOL aux96 #|aux95|
+DISCRETE aux97 #(path_00001_00002_00002 - path_00001_00003_00002)
+{-1..1}
+BOOL aux98 #|aux97|
+DISCRETE aux99 #( - path_00001_00004_00001 + path_00001_00003_00001)
+{-1..1}
+BOOL aux100 #|aux99|
+DISCRETE aux101 #( - path_00001_00004_00002 + path_00001_00003_00002)
+{-1..1}
+BOOL aux102 #|aux101|
+DISCRETE aux103 #( - path_00002_00004_00001 + path_00002_00003_00001)
+{-1..1}
+BOOL aux104 #|aux103|
+DISCRETE aux105 #( - path_00002_00004_00002 + path_00002_00003_00002)
+{-1..1}
+BOOL aux106 #|aux105|
+DISCRETE aux107 #( - path_00003_00005_00001 + path_00003_00004_00001)
+{-1..1}
+BOOL aux108 #|aux107|
+DISCRETE aux109 #( - path_00003_00005_00002 + path_00003_00004_00002)
+{-1..1}
+BOOL aux110 #|aux109|
+DISCRETE aux111 #(path_00002_00005_00001 - path_00002_00006_00001)
+{-1..1}
+BOOL aux112 #|aux111|
+DISCRETE aux113 #(path_00002_00005_00002 - path_00002_00006_00002)
+{-1..1}
+BOOL aux114 #|aux113|
+DISCRETE aux115 #(path_00003_00003_00001 - path_00003_00004_00001)
+{-1..1}
+BOOL aux116 #|aux115|
+DISCRETE aux117 #(path_00003_00003_00002 - path_00003_00004_00002)
+{-1..1}
+BOOL aux118 #|aux117|
+DISCRETE aux119 #(path_00004_00005_00001 - path_00004_00006_00001)
+{-1..1}
+BOOL aux120 #|aux119|
+DISCRETE aux121 #(path_00004_00005_00002 - path_00004_00006_00002)
+{-1..1}
+BOOL aux122 #|aux121|
+DISCRETE aux123 #(path_00002_00001_00001 - path_00002_00002_00001)
+{-1..1}
+BOOL aux124 #|aux123|
+DISCRETE aux125 #(path_00002_00001_00002 - path_00002_00002_00002)
+{-1..1}
+BOOL aux126 #|aux125|
+DISCRETE aux127 #(7*interval_00001_00001 + interval_00001_00003 + -9)
+{1..25}
+**CONSTRAINTS**
+w-inintervalset(aux127, [1,4,8,11,15,18,22,25])
+**VARIABLES**
+DISCRETE aux128 #(-9 + 7*interval_00002_00001 + interval_00002_00003)
+{1..25}
+**CONSTRAINTS**
+w-inintervalset(aux128, [1,4,8,11,15,18,22,25])
+**VARIABLES**
+DISCRETE aux129 #(-9 + 7*interval_00003_00001 + interval_00003_00003)
+{1..25}
+**CONSTRAINTS**
+w-inintervalset(aux129, [1,4,8,11,15,18,22,25])
+**VARIABLES**
+DISCRETE aux130 #(7*interval_00004_00001 + interval_00004_00003 + -9)
+{1..25}
+**CONSTRAINTS**
+w-inintervalset(aux130, [1,4,8,11,15,18,22,25])
+**VARIABLES**
+DISCRETE aux131 #(4*path_00004_00006_00001 + path_00004_00006_00002)
+{5..20}
+DISCRETE aux132 #(4*path_00003_00006_00001 + path_00003_00006_00002)
+{5..20}
+DISCRETE aux133 #(4*path_00002_00006_00001 + path_00002_00006_00002)
+{5..20}
+DISCRETE aux134 #(4*path_00001_00006_00001 + path_00001_00006_00002)
+{5..20}
+DISCRETE aux135 #(robot_moves_00004_00000 + robot_moves_00004_00001 + robot_moves_00004_00002 + robot_moves_00004_00003 + robot_moves_00004_00004 + robot_moves_00004_00005 + robot_moves_00004_00006)
+{1..7}
+DISCRETE aux136 #(robot_moves_00003_00000 + robot_moves_00003_00001 + robot_moves_00003_00002 + robot_moves_00003_00003 + robot_moves_00003_00004 + robot_moves_00003_00005 + robot_moves_00003_00006)
+{1..7}
+DISCRETE aux137 #(robot_moves_00002_00000 + robot_moves_00002_00001 + robot_moves_00002_00002 + robot_moves_00002_00003 + robot_moves_00002_00004 + robot_moves_00002_00005 + robot_moves_00002_00006)
+{1..7}
+DISCRETE aux138 #(robot_moves_00001_00000 + robot_moves_00001_00001 + robot_moves_00001_00002 + robot_moves_00001_00003 + robot_moves_00001_00004 + robot_moves_00001_00005 + robot_moves_00001_00006)
+{1..7}
+DISCRETE aux139 #min(aux135, aux136, aux137, aux138)
+{1..6}
+**TUPLELIST**
+robot_pos 4 2
+1 1 
+1 4 
+4 1 
+4 4 
+**VARIABLES**
+ALIAS robot_pos[4,2]=[[1, 1], [1, 4], [4, 1], [4, 4]]
+**TUPLELIST**
+task_dest 4 2
+2 4 
+2 1 
+3 4 
+3 1 
+**VARIABLES**
+ALIAS task_dest[4,2]=[[2, 4], [2, 1], [3, 4], [3, 1]]
+**TUPLELIST**
+map 4 4
+0 0 0 0 
+0 1 2 0 
+0 3 4 0 
+0 0 0 0 
+**VARIABLES**
+ALIAS map[4,4]=[[0, 0, 0, 0], [0, 1, 2, 0], [0, 3, 4, 0], [0, 0, 0, 0]]
+**VARIABLES**
+ALIAS task_obj[4]=[1, 2, 3, 4]
+**SEARCH**
+PRINT[[path_00001_00001_00001],[path_00001_00001_00002],[path_00001_00002_00001],[path_00001_00002_00002],[path_00001_00003_00001],[path_00001_00003_00002],[path_00001_00004_00001],[path_00001_00004_00002],[path_00001_00005_00001],[path_00001_00005_00002],[path_00001_00006_00001],[path_00001_00006_00002],[path_00002_00001_00001],[path_00002_00001_00002],[path_00002_00002_00001],[path_00002_00002_00002],[path_00002_00003_00001],[path_00002_00003_00002],[path_00002_00004_00001],[path_00002_00004_00002],[path_00002_00005_00001],[path_00002_00005_00002],[path_00002_00006_00001],[path_00002_00006_00002],[path_00003_00001_00001],[path_00003_00001_00002],[path_00003_00002_00001],[path_00003_00002_00002],[path_00003_00003_00001],[path_00003_00003_00002],[path_00003_00004_00001],[path_00003_00004_00002],[path_00003_00005_00001],[path_00003_00005_00002],[path_00003_00006_00001],[path_00003_00006_00002],[path_00004_00001_00001],[path_00004_00001_00002],[path_00004_00002_00001],[path_00004_00002_00002],[path_00004_00003_00001],[path_00004_00003_00002],[path_00004_00004_00001],[path_00004_00004_00002],[path_00004_00005_00001],[path_00004_00005_00002],[path_00004_00006_00001],[path_00004_00006_00002],[inventory_00001_00001],[inventory_00001_00002],[inventory_00001_00003],[inventory_00001_00004],[inventory_00001_00005],[inventory_00001_00006],[inventory_00002_00001],[inventory_00002_00002],[inventory_00002_00003],[inventory_00002_00004],[inventory_00002_00005],[inventory_00002_00006],[inventory_00003_00001],[inventory_00003_00002],[inventory_00003_00003],[inventory_00003_00004],[inventory_00003_00005],[inventory_00003_00006],[inventory_00004_00001],[inventory_00004_00002],[inventory_00004_00003],[inventory_00004_00004],[inventory_00004_00005],[inventory_00004_00006],[interval_00001_00001],[interval_00001_00002],[interval_00001_00003],[interval_00002_00001],[interval_00002_00002],[interval_00002_00003],[interval_00003_00001],[interval_00003_00002],[interval_00003_00003],[interval_00004_00001],[interval_00004_00002],[interval_00004_00003],[robot_task_occurance_00001_00001],[robot_task_occurance_00001_00002],[robot_task_occurance_00001_00003],[robot_task_occurance_00001_00004],[robot_task_occurance_00002_00001],[robot_task_occurance_00002_00002],[robot_task_occurance_00002_00003],[robot_task_occurance_00002_00004],[robot_task_occurance_00003_00001],[robot_task_occurance_00003_00002],[robot_task_occurance_00003_00003],[robot_task_occurance_00003_00004],[robot_task_occurance_00004_00001],[robot_task_occurance_00004_00002],[robot_task_occurance_00004_00003],[robot_task_occurance_00004_00004],[robot_moves_00001_00000],[robot_moves_00001_00001],[robot_moves_00001_00002],[robot_moves_00001_00003],[robot_moves_00001_00004],[robot_moves_00001_00005],[robot_moves_00001_00006],[robot_moves_00002_00000],[robot_moves_00002_00001],[robot_moves_00002_00002],[robot_moves_00002_00003],[robot_moves_00002_00004],[robot_moves_00002_00005],[robot_moves_00002_00006],[robot_moves_00003_00000],[robot_moves_00003_00001],[robot_moves_00003_00002],[robot_moves_00003_00003],[robot_moves_00003_00004],[robot_moves_00003_00005],[robot_moves_00003_00006],[robot_moves_00004_00000],[robot_moves_00004_00001],[robot_moves_00004_00002],[robot_moves_00004_00003],[robot_moves_00004_00004],[robot_moves_00004_00005],[robot_moves_00004_00006],[total_moves],[min_moves]]
+VARORDER STATIC [interval_00001_00001, interval_00001_00002, interval_00001_00003, interval_00002_00001, interval_00002_00002, interval_00002_00003, interval_00003_00001, interval_00003_00002, interval_00003_00003, interval_00004_00001, interval_00004_00002, interval_00004_00003]
+**CONSTRAINTS**
+abs(aux48, aux47)
+abs(aux50, aux49)
+abs(aux52, aux51)
+abs(aux54, aux53)
+abs(aux56, aux55)
+abs(aux58, aux57)
+abs(aux60, aux59)
+abs(aux62, aux61)
+abs(aux64, aux63)
+abs(aux66, aux65)
+abs(aux68, aux67)
+abs(aux70, aux69)
+abs(aux72, aux71)
+abs(aux74, aux73)
+abs(aux76, aux75)
+abs(aux78, aux77)
+abs(aux80, aux79)
+abs(aux82, aux81)
+abs(aux84, aux83)
+abs(aux86, aux85)
+abs(aux88, aux87)
+abs(aux90, aux89)
+abs(aux92, aux91)
+abs(aux94, aux93)
+abs(aux96, aux95)
+abs(aux98, aux97)
+abs(aux100, aux99)
+abs(aux102, aux101)
+abs(aux104, aux103)
+abs(aux106, aux105)
+abs(aux108, aux107)
+abs(aux110, aux109)
+abs(aux112, aux111)
+abs(aux114, aux113)
+abs(aux116, aux115)
+abs(aux118, aux117)
+abs(aux120, aux119)
+abs(aux122, aux121)
+abs(aux124, aux123)
+abs(aux126, aux125)
+min([aux135,aux136,aux137,aux138],aux139)
+ineq(min_moves, total_moves, 0)
+watched-or({watched-and({w-literal(aux39,3),w-literal(robot_moves_00001_00000,1)}),watched-and({w-literal(aux39,2),w-literal(robot_moves_00001_00000,0)})})
+watched-or({watched-and({w-literal(aux11,1),w-literal(robot_moves_00001_00001,1)}),watched-and({w-literal(aux11,0),w-literal(robot_moves_00001_00001,0)})})
+watched-or({watched-and({w-literal(aux15,1),w-literal(robot_moves_00001_00002,1)}),watched-and({w-literal(aux15,0),w-literal(robot_moves_00001_00002,0)})})
+watched-or({watched-and({w-literal(aux16,1),w-literal(robot_moves_00001_00003,1)}),watched-and({w-literal(aux16,0),w-literal(robot_moves_00001_00003,0)})})
+watched-or({watched-and({w-literal(aux8,1),w-literal(robot_moves_00001_00004,1)}),watched-and({w-literal(aux8,0),w-literal(robot_moves_00001_00004,0)})})
+watched-or({watched-and({w-literal(aux7,1),w-literal(robot_moves_00001_00005,1)}),watched-and({w-literal(aux7,0),w-literal(robot_moves_00001_00005,0)})})
+watched-or({watched-and({w-literal(aux31,-3),w-literal(robot_moves_00002_00000,0)}),watched-and({w-literal(aux31,-2),w-literal(robot_moves_00002_00000,1)})})
+watched-or({watched-and({w-literal(aux22,1),w-literal(robot_moves_00002_00001,1)}),watched-and({w-literal(aux22,0),w-literal(robot_moves_00002_00001,0)})})
+watched-or({watched-and({w-literal(robot_moves_00002_00002,0),w-literal(aux6,0)}),watched-and({w-literal(aux6,1),w-literal(robot_moves_00002_00002,1)})})
+watched-or({watched-and({w-literal(robot_moves_00002_00003,0),w-literal(aux17,0)}),watched-and({w-literal(aux17,1),w-literal(robot_moves_00002_00003,1)})})
+watched-or({watched-and({w-literal(aux5,1),w-literal(robot_moves_00002_00004,1)}),watched-and({w-literal(robot_moves_00002_00004,0),w-literal(aux5,0)})})
+watched-or({watched-and({w-literal(aux19,1),w-literal(robot_moves_00002_00005,1)}),watched-and({w-literal(aux19,0),w-literal(robot_moves_00002_00005,0)})})
+watched-or({watched-and({w-literal(aux41,-3),w-literal(robot_moves_00003_00000,0)}),watched-and({w-literal(aux41,-2),w-literal(robot_moves_00003_00000,1)})})
+watched-or({watched-and({w-literal(robot_moves_00003_00001,0),w-literal(aux4,0)}),watched-and({w-literal(robot_moves_00003_00001,1),w-literal(aux4,1)})})
+watched-or({watched-and({w-literal(robot_moves_00003_00002,1),w-literal(aux14,1)}),watched-and({w-literal(aux14,0),w-literal(robot_moves_00003_00002,0)})})
+watched-or({watched-and({w-literal(robot_moves_00003_00003,0),w-literal(aux20,0)}),watched-and({w-literal(robot_moves_00003_00003,1),w-literal(aux20,1)})})
+watched-or({watched-and({w-literal(robot_moves_00003_00004,0),w-literal(aux18,0)}),watched-and({w-literal(robot_moves_00003_00004,1),w-literal(aux18,1)})})
+watched-or({watched-and({w-literal(robot_moves_00003_00005,1),w-literal(aux10,1)}),watched-and({w-literal(aux10,0),w-literal(robot_moves_00003_00005,0)})})
+watched-or({watched-and({w-literal(aux45,-7),w-literal(robot_moves_00004_00000,1)}),watched-and({w-literal(aux45,-8),w-literal(robot_moves_00004_00000,0)})})
+watched-or({watched-and({w-literal(aux12,1),w-literal(robot_moves_00004_00001,1)}),watched-and({w-literal(aux12,0),w-literal(robot_moves_00004_00001,0)})})
+watched-or({watched-and({w-literal(aux3,0),w-literal(robot_moves_00004_00002,0)}),watched-and({w-literal(robot_moves_00004_00002,1),w-literal(aux3,1)})})
+watched-or({watched-and({w-literal(aux13,1),w-literal(robot_moves_00004_00003,1)}),watched-and({w-literal(aux13,0),w-literal(robot_moves_00004_00003,0)})})
+watched-or({watched-and({w-literal(aux9,1),w-literal(robot_moves_00004_00004,1)}),watched-and({w-literal(aux9,0),w-literal(robot_moves_00004_00004,0)})})
+watched-or({watched-and({w-literal(aux21,1),w-literal(robot_moves_00004_00005,1)}),watched-and({w-literal(aux21,0),w-literal(robot_moves_00004_00005,0)})})
+watched-or({watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,4),w-literal(aux27,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,4),w-literal(aux33,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,4),w-literal(aux37,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,4),w-literal(aux33,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux37,10),w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,4),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,4),w-literal(aux36,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux38,10),w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,4),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,4),w-literal(aux23,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,4),w-literal(aux46,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,4),w-literal(aux40,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux23,10),w-literal(path_00001_00004_00001,2),w-literal(path_00001_00004_00002,4),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(aux37,10),w-literal(path_00003_00004_00001,2),w-literal(path_00003_00004_00002,4),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,4),w-literal(aux40,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux38,10),w-literal(path_00003_00004_00001,2),w-literal(path_00003_00004_00002,4),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,4)}),watched-and({w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,4),w-literal(aux40,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,4)}),watched-and({w-literal(path_00001_00003_00001,2),w-literal(path_00001_00003_00002,4),w-literal(aux36,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,3)}),watched-and({w-literal(aux26,10),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux29,10),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,4),w-literal(aux42,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux25,10),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00003_00003_00001,2),w-literal(path_00003_00003_00002,4),w-literal(aux38,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,3)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,4),w-literal(aux35,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,4),w-literal(aux30,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux42,10),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,4),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00002_00003_00001,2),w-literal(path_00002_00003_00002,4),w-literal(aux40,10),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,3)}),watched-and({w-literal(aux36,10),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,4),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,4),w-literal(aux38,10),w-literal(interval_00001_00001,3),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00001_00004_00001,2),w-literal(path_00001_00004_00002,4),w-literal(aux36,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,4)}),watched-and({w-literal(aux29,10),w-literal(path_00004_00005_00001,2),w-literal(path_00004_00005_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,4),w-literal(aux28,10),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux25,10),w-literal(path_00004_00005_00001,2),w-literal(path_00004_00005_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux28,10),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,4),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux23,10),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,4),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux42,10),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,4),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(aux29,10),w-literal(path_00004_00004_00001,2),w-literal(path_00004_00004_00002,4),w-literal(interval_00001_00001,4),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(aux30,10),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,4),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)})})
+watched-or({watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(aux30,11),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,1)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,2),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(aux27,11)}),watched-and({w-literal(interval_00002_00001,4),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6),w-literal(aux25,11),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(interval_00002_00001,4),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(aux25,11),w-literal(path_00004_00005_00001,2),w-literal(path_00004_00005_00002,1)}),watched-and({w-literal(aux24,11),w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,1),w-literal(interval_00002_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00003,6)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,4),w-literal(path_00001_00004_00001,2),w-literal(path_00001_00004_00002,1),w-literal(aux36,11)}),watched-and({w-literal(aux28,11),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,1)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,2),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,6),w-literal(aux36,11)}),watched-and({w-literal(interval_00002_00002,2),w-literal(interval_00002_00001,3),w-literal(interval_00002_00003,5),w-literal(aux38,11),w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,1)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,5),w-literal(aux42,11),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,1)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,4),w-literal(aux42,11),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,1)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,2),w-literal(aux28,11),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(aux35,11)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,5),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,1),w-literal(aux40,11)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,1),w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6),w-literal(aux33,11)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,5),w-literal(aux36,11),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,1)}),watched-and({w-literal(aux26,11),w-literal(interval_00002_00001,4),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(aux37,11),w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,4),w-literal(path_00003_00004_00002,1),w-literal(path_00003_00004_00001,2)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6),w-literal(aux30,11)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,5),w-literal(aux23,11),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,1)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,6),w-literal(aux40,11)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,4),w-literal(aux23,11),w-literal(path_00001_00004_00001,2),w-literal(path_00001_00004_00002,1)}),watched-and({w-literal(aux24,11),w-literal(interval_00002_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00003,3),w-literal(path_00002_00003_00002,1),w-literal(path_00002_00003_00001,2)}),watched-and({w-literal(interval_00002_00002,3),w-literal(interval_00002_00001,4),w-literal(interval_00002_00003,6),w-literal(aux29,11),w-literal(path_00004_00006_00001,2),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(interval_00002_00002,3),w-literal(interval_00002_00001,4),w-literal(interval_00002_00003,5),w-literal(aux29,11),w-literal(path_00004_00005_00001,2),w-literal(path_00004_00005_00002,1)}),watched-and({w-literal(interval_00002_00002,2),w-literal(interval_00002_00001,3),w-literal(interval_00002_00003,3),w-literal(path_00003_00003_00002,1),w-literal(path_00003_00003_00001,2),w-literal(aux38,11)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,1),w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(aux46,11)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,3),w-literal(path_00002_00003_00002,1),w-literal(path_00002_00003_00001,2),w-literal(aux40,11)}),watched-and({w-literal(aux37,11),w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,5),w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,1)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,4),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,1),w-literal(aux40,11)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,1),w-literal(interval_00002_00002,2),w-literal(interval_00002_00001,3),w-literal(interval_00002_00003,6),w-literal(aux38,11)}),watched-and({w-literal(path_00003_00006_00001,2),w-literal(path_00003_00006_00002,1),w-literal(aux37,11),w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,6)}),watched-and({w-literal(interval_00002_00002,2),w-literal(interval_00002_00001,3),w-literal(interval_00002_00003,4),w-literal(aux38,11),w-literal(path_00003_00004_00002,1),w-literal(path_00003_00004_00001,2)}),watched-and({w-literal(interval_00002_00002,3),w-literal(interval_00002_00001,4),w-literal(interval_00002_00003,4),w-literal(aux29,11),w-literal(path_00004_00004_00002,1),w-literal(path_00004_00004_00001,2)}),watched-and({w-literal(interval_00002_00001,3),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(path_00003_00005_00001,2),w-literal(path_00003_00005_00002,1),w-literal(aux33,11)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,3),w-literal(path_00001_00003_00002,1),w-literal(path_00001_00003_00001,2),w-literal(aux36,11)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,2),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,6),w-literal(aux23,11)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,6),w-literal(aux42,11)}),watched-and({w-literal(aux24,11),w-literal(interval_00002_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00003,5),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,1)}),watched-and({w-literal(aux24,11),w-literal(interval_00002_00002,1),w-literal(interval_00002_00001,2),w-literal(interval_00002_00003,4),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,1)})})
+watched-or({watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,5),w-literal(aux23,14),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,4)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,4),w-literal(aux23,14),w-literal(path_00001_00004_00001,3),w-literal(path_00001_00004_00002,4)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,4),w-literal(aux46,14),w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6),w-literal(aux35,14)}),watched-and({w-literal(aux26,14),w-literal(interval_00003_00001,4),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,4)}),watched-and({w-literal(aux37,14),w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,4),w-literal(path_00003_00004_00001,3),w-literal(path_00003_00004_00002,4)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,4),w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6),w-literal(aux33,14)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,4),w-literal(aux42,14),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,6)}),watched-and({w-literal(aux34,14),w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,6),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,4)}),watched-and({w-literal(aux34,14),w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,5),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,4)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,4),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,6),w-literal(aux23,14)}),watched-and({w-literal(aux29,14),w-literal(interval_00003_00002,3),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,6),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,4)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,4),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6),w-literal(aux27,14)}),watched-and({w-literal(aux29,14),w-literal(interval_00003_00002,3),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,5),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,4)}),watched-and({w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,4),w-literal(aux38,14),w-literal(path_00003_00004_00001,3),w-literal(path_00003_00004_00002,4)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6),w-literal(aux30,14)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,6),w-literal(aux40,14)}),watched-and({w-literal(aux37,14),w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,5),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,4)}),watched-and({w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,4),w-literal(aux33,14)}),watched-and({w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,4),w-literal(aux40,14)}),watched-and({w-literal(aux44,14),w-literal(interval_00003_00002,1),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,4),w-literal(path_00003_00004_00001,3),w-literal(path_00003_00004_00002,4)}),watched-and({w-literal(aux42,14),w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,4)}),watched-and({w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(aux30,14),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,4)}),watched-and({w-literal(aux34,14),w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,4),w-literal(path_00004_00004_00001,3),w-literal(path_00004_00004_00002,4)}),watched-and({w-literal(interval_00003_00001,4),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6),w-literal(aux25,14),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,4)}),watched-and({w-literal(interval_00003_00001,4),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(aux25,14),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,4)}),watched-and({w-literal(aux42,14),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,5),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,4)}),watched-and({w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,5),w-literal(aux38,14),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,4)}),watched-and({w-literal(path_00003_00003_00001,3),w-literal(path_00003_00003_00002,4),w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,3),w-literal(aux38,14)}),watched-and({w-literal(aux29,14),w-literal(interval_00003_00002,3),w-literal(interval_00003_00001,4),w-literal(interval_00003_00003,4),w-literal(path_00004_00004_00001,3),w-literal(path_00004_00004_00002,4)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,4),w-literal(interval_00003_00002,2),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,6),w-literal(aux38,14)}),watched-and({w-literal(path_00004_00003_00001,3),w-literal(path_00004_00003_00002,4),w-literal(aux34,14),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,3),w-literal(interval_00003_00001,4)}),watched-and({w-literal(aux44,14),w-literal(path_00003_00003_00001,3),w-literal(path_00003_00003_00002,4),w-literal(interval_00003_00002,1),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,3)}),watched-and({w-literal(aux28,14),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,4)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,4),w-literal(aux28,14),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6)}),watched-and({w-literal(aux44,14),w-literal(interval_00003_00002,1),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,5),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,4)}),watched-and({w-literal(aux44,14),w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,4),w-literal(interval_00003_00002,1),w-literal(interval_00003_00001,3),w-literal(interval_00003_00003,6)}),watched-and({w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,5),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,4),w-literal(aux40,14)}),watched-and({w-literal(path_00002_00003_00001,3),w-literal(path_00002_00003_00002,4),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,3),w-literal(aux40,14)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,4),w-literal(aux37,14),w-literal(interval_00003_00001,3),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,6)})})
+watched-or({watched-and({w-literal(path_00004_00003_00002,1),w-literal(path_00004_00003_00001,3),w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,3),w-literal(aux34,15)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,1),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6),w-literal(aux33,15)}),watched-and({w-literal(aux37,15),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,6),w-literal(aux34,15),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,5),w-literal(aux34,15),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,3),w-literal(path_00003_00003_00002,1),w-literal(path_00003_00003_00001,3),w-literal(aux38,15)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6),w-literal(aux25,15),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(aux25,15),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(aux29,15),w-literal(path_00004_00004_00002,1),w-literal(path_00004_00004_00001,3)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,3),w-literal(path_00002_00003_00002,1),w-literal(path_00002_00003_00001,3),w-literal(aux40,15)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,1),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6),w-literal(aux30,15)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(aux23,15),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(aux23,15),w-literal(path_00001_00004_00001,3),w-literal(path_00001_00004_00002,1)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,1),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,6),w-literal(aux40,15)}),watched-and({w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,1),w-literal(aux33,15)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,4),w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,1),w-literal(aux40,15)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,3),w-literal(aux28,15),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,1),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(aux46,15)}),watched-and({w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,4),w-literal(aux38,15),w-literal(path_00003_00004_00002,1),w-literal(path_00003_00004_00001,3)}),watched-and({w-literal(aux28,15),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,4),w-literal(aux34,15),w-literal(path_00004_00004_00002,1),w-literal(path_00004_00004_00001,3)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,1),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,6),w-literal(aux38,15)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(aux30,15),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,5),w-literal(aux38,15),w-literal(path_00003_00005_00001,3),w-literal(path_00003_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(aux42,15),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,1)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(aux42,15),w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,1)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,3),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6),w-literal(aux23,15)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,1),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6),w-literal(aux42,15)}),watched-and({w-literal(aux26,15),w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(aux37,15),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(path_00003_00004_00002,1),w-literal(path_00003_00004_00001,3)}),watched-and({w-literal(path_00001_00006_00002,1),w-literal(path_00001_00006_00001,3),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(aux27,15)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,5),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,1),w-literal(aux40,15)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6),w-literal(aux29,15),w-literal(path_00004_00006_00001,3),w-literal(path_00004_00006_00002,1)}),watched-and({w-literal(interval_00004_00001,4),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(aux29,15),w-literal(path_00004_00005_00001,3),w-literal(path_00004_00005_00002,1)}),watched-and({w-literal(path_00003_00006_00001,3),w-literal(path_00003_00006_00002,1),w-literal(aux37,15),w-literal(interval_00004_00001,3),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,1),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(aux35,15)})})
+watched-or({ineq(1, interval_00001_00002, -1),watchelement_one([inventory_00001_00001, inventory_00002_00001, inventory_00003_00001, inventory_00004_00001], interval_00001_00001, 1)})
+watched-or({ineq(2, interval_00001_00002, -1),watchelement_one([inventory_00001_00002, inventory_00002_00002, inventory_00003_00002, inventory_00004_00002], interval_00001_00001, 1)})
+watched-or({ineq(3, interval_00001_00002, -1),ineq(interval_00001_00003, 3, 0),watchelement_one([inventory_00001_00003, inventory_00002_00003, inventory_00003_00003, inventory_00004_00003], interval_00001_00001, 1)})
+watched-or({ineq(4, interval_00001_00002, -1),ineq(interval_00001_00003, 4, 0),watchelement_one([inventory_00001_00004, inventory_00002_00004, inventory_00003_00004, inventory_00004_00004], interval_00001_00001, 1)})
+watched-or({ineq(interval_00001_00003, 5, 0),watchelement_one([inventory_00001_00005, inventory_00002_00005, inventory_00003_00005, inventory_00004_00005], interval_00001_00001, 1)})
+watchelement_one([inventory_00001_00003, inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, 0, inventory_00003_00001, inventory_00003_00002, inventory_00003_00003, inventory_00003_00004, inventory_00003_00005, inventory_00003_00006, 0, inventory_00004_00001, inventory_00004_00002, inventory_00004_00003, inventory_00004_00004, inventory_00004_00005, inventory_00004_00006], aux127, 0)
+watchelement_one([robot_task_occurance_00001_00001, robot_task_occurance_00002_00001, robot_task_occurance_00003_00001, robot_task_occurance_00004_00001], interval_00001_00001, 1)
+watched-or({watchelement_one([inventory_00001_00001, inventory_00002_00001, inventory_00003_00001, inventory_00004_00001], interval_00002_00001, 2),ineq(1, interval_00002_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00002, inventory_00002_00002, inventory_00003_00002, inventory_00004_00002], interval_00002_00001, 2),ineq(2, interval_00002_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00003, inventory_00002_00003, inventory_00003_00003, inventory_00004_00003], interval_00002_00001, 2),ineq(interval_00002_00003, 3, 0),ineq(3, interval_00002_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00004, inventory_00002_00004, inventory_00003_00004, inventory_00004_00004], interval_00002_00001, 2),ineq(interval_00002_00003, 4, 0),ineq(4, interval_00002_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00005, inventory_00002_00005, inventory_00003_00005, inventory_00004_00005], interval_00002_00001, 2),ineq(interval_00002_00003, 5, 0)})
+watchelement_one([inventory_00001_00003, inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, 0, inventory_00003_00001, inventory_00003_00002, inventory_00003_00003, inventory_00003_00004, inventory_00003_00005, inventory_00003_00006, 0, inventory_00004_00001, inventory_00004_00002, inventory_00004_00003, inventory_00004_00004, inventory_00004_00005, inventory_00004_00006], aux128, 0)
+watchelement_one([robot_task_occurance_00001_00002, robot_task_occurance_00002_00002, robot_task_occurance_00003_00002, robot_task_occurance_00004_00002], interval_00002_00001, 1)
+watched-or({watchelement_one([inventory_00001_00001, inventory_00002_00001, inventory_00003_00001, inventory_00004_00001], interval_00003_00001, 3),ineq(1, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00002, inventory_00002_00002, inventory_00003_00002, inventory_00004_00002], interval_00003_00001, 3),ineq(2, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00003, inventory_00002_00003, inventory_00003_00003, inventory_00004_00003], interval_00003_00001, 3),ineq(interval_00003_00003, 3, 0),ineq(3, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00004, inventory_00002_00004, inventory_00003_00004, inventory_00004_00004], interval_00003_00001, 3),ineq(interval_00003_00003, 4, 0),ineq(4, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00005, inventory_00002_00005, inventory_00003_00005, inventory_00004_00005], interval_00003_00001, 3),ineq(interval_00003_00003, 5, 0)})
+watchelement_one([inventory_00001_00003, inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, 0, inventory_00003_00001, inventory_00003_00002, inventory_00003_00003, inventory_00003_00004, inventory_00003_00005, inventory_00003_00006, 0, inventory_00004_00001, inventory_00004_00002, inventory_00004_00003, inventory_00004_00004, inventory_00004_00005, inventory_00004_00006], aux129, 0)
+watchelement_one([robot_task_occurance_00001_00003, robot_task_occurance_00002_00003, robot_task_occurance_00003_00003, robot_task_occurance_00004_00003], interval_00003_00001, 1)
+watched-or({watchelement_one([inventory_00001_00001, inventory_00002_00001, inventory_00003_00001, inventory_00004_00001], interval_00004_00001, 4),ineq(1, interval_00004_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00002, inventory_00002_00002, inventory_00003_00002, inventory_00004_00002], interval_00004_00001, 4),ineq(2, interval_00004_00002, -1)})
+watched-or({ineq(interval_00004_00003, 3, 0),watchelement_one([inventory_00001_00003, inventory_00002_00003, inventory_00003_00003, inventory_00004_00003], interval_00004_00001, 4),ineq(3, interval_00004_00002, -1)})
+watched-or({ineq(interval_00004_00003, 4, 0),watchelement_one([inventory_00001_00004, inventory_00002_00004, inventory_00003_00004, inventory_00004_00004], interval_00004_00001, 4),ineq(4, interval_00004_00002, -1)})
+watched-or({ineq(interval_00004_00003, 5, 0),watchelement_one([inventory_00001_00005, inventory_00002_00005, inventory_00003_00005, inventory_00004_00005], interval_00004_00001, 4)})
+watchelement_one([inventory_00001_00003, inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, 0, inventory_00003_00001, inventory_00003_00002, inventory_00003_00003, inventory_00003_00004, inventory_00003_00005, inventory_00003_00006, 0, inventory_00004_00001, inventory_00004_00002, inventory_00004_00003, inventory_00004_00004, inventory_00004_00005, inventory_00004_00006], aux130, 0)
+watchelement_one([robot_task_occurance_00001_00004, robot_task_occurance_00002_00004, robot_task_occurance_00003_00004, robot_task_occurance_00004_00004], interval_00004_00001, 1)
+watched-or({diseq(interval_00001_00001,interval_00002_00001),ineq(interval_00001_00003, interval_00002_00002, -1),ineq(interval_00002_00003, interval_00001_00002, -1)})
+watched-or({diseq(interval_00001_00001,interval_00003_00001),ineq(interval_00003_00003, interval_00001_00002, -1),ineq(interval_00001_00003, interval_00003_00002, -1)})
+watched-or({diseq(interval_00004_00001,interval_00001_00001),ineq(interval_00001_00003, interval_00004_00002, -1),ineq(interval_00004_00003, interval_00001_00002, -1)})
+watched-or({ineq(interval_00002_00003, interval_00003_00002, -1),ineq(interval_00003_00003, interval_00002_00002, -1),diseq(interval_00002_00001,interval_00003_00001)})
+watched-or({diseq(interval_00004_00001,interval_00002_00001),ineq(interval_00002_00003, interval_00004_00002, -1),ineq(interval_00004_00003, interval_00002_00002, -1)})
+watched-or({ineq(interval_00004_00003, interval_00003_00002, -1),diseq(interval_00004_00001,interval_00003_00001),ineq(interval_00003_00003, interval_00004_00002, -1)})
+gacalldiff([aux43, aux44, aux24, aux32])
+gacalldiff([aux40, aux36, aux34, aux38])
+gacalldiff([aux29, aux37, aux42, aux23])
+gacalldiff([aux33, aux30, aux28, aux25])
+gacalldiff([aux27, aux26, aux46, aux35])
+gacalldiff([aux131, aux132, aux133, aux134])
+watched-or({diseq(path_00002_00001_00001,path_00001_00002_00001),diseq(path_00002_00001_00002,path_00001_00002_00002),diseq(path_00001_00001_00001,path_00002_00002_00001),diseq(path_00001_00001_00002,path_00002_00002_00002)})
+watched-or({diseq(path_00003_00001_00001,path_00001_00002_00001),diseq(path_00003_00001_00002,path_00001_00002_00002),diseq(path_00001_00001_00001,path_00003_00002_00001),diseq(path_00001_00001_00002,path_00003_00002_00002)})
+watched-or({diseq(path_00004_00001_00001,path_00001_00002_00001),diseq(path_00004_00001_00002,path_00001_00002_00002),diseq(path_00001_00001_00001,path_00004_00002_00001),diseq(path_00001_00001_00002,path_00004_00002_00002)})
+watched-or({diseq(path_00002_00002_00001,path_00001_00003_00001),diseq(path_00002_00002_00002,path_00001_00003_00002),diseq(path_00001_00002_00001,path_00002_00003_00001),diseq(path_00001_00002_00002,path_00002_00003_00002)})
+watched-or({diseq(path_00003_00002_00001,path_00001_00003_00001),diseq(path_00003_00002_00002,path_00001_00003_00002),diseq(path_00001_00002_00001,path_00003_00003_00001),diseq(path_00001_00002_00002,path_00003_00003_00002)})
+watched-or({diseq(path_00004_00002_00001,path_00001_00003_00001),diseq(path_00004_00002_00002,path_00001_00003_00002),diseq(path_00001_00002_00001,path_00004_00003_00001),diseq(path_00001_00002_00002,path_00004_00003_00002)})
+watched-or({diseq(path_00002_00004_00001,path_00001_00003_00001),diseq(path_00002_00004_00002,path_00001_00003_00002),diseq(path_00001_00004_00001,path_00002_00003_00001),diseq(path_00001_00004_00002,path_00002_00003_00002)})
+watched-or({diseq(path_00001_00003_00001,path_00003_00004_00001),diseq(path_00001_00003_00002,path_00003_00004_00002),diseq(path_00001_00004_00001,path_00003_00003_00001),diseq(path_00001_00004_00002,path_00003_00003_00002)})
+watched-or({diseq(path_00001_00003_00001,path_00004_00004_00001),diseq(path_00001_00003_00002,path_00004_00004_00002),diseq(path_00001_00004_00001,path_00004_00003_00001),diseq(path_00001_00004_00002,path_00004_00003_00002)})
+watched-or({diseq(path_00002_00004_00001,path_00001_00005_00001),diseq(path_00002_00004_00002,path_00001_00005_00002),diseq(path_00001_00004_00001,path_00002_00005_00001),diseq(path_00001_00004_00002,path_00002_00005_00002)})
+watched-or({diseq(path_00001_00004_00001,path_00003_00005_00001),diseq(path_00001_00004_00002,path_00003_00005_00002),diseq(path_00001_00005_00001,path_00003_00004_00001),diseq(path_00001_00005_00002,path_00003_00004_00002)})
+watched-or({diseq(path_00001_00004_00001,path_00004_00005_00001),diseq(path_00001_00004_00002,path_00004_00005_00002),diseq(path_00001_00005_00001,path_00004_00004_00001),diseq(path_00001_00005_00002,path_00004_00004_00002)})
+watched-or({diseq(path_00002_00005_00001,path_00001_00006_00001),diseq(path_00002_00005_00002,path_00001_00006_00002),diseq(path_00001_00005_00001,path_00002_00006_00001),diseq(path_00001_00005_00002,path_00002_00006_00002)})
+watched-or({diseq(path_00003_00005_00001,path_00001_00006_00001),diseq(path_00003_00005_00002,path_00001_00006_00002),diseq(path_00001_00005_00001,path_00003_00006_00001),diseq(path_00001_00005_00002,path_00003_00006_00002)})
+watched-or({diseq(path_00004_00005_00001,path_00001_00006_00001),diseq(path_00004_00005_00002,path_00001_00006_00002),diseq(path_00001_00005_00001,path_00004_00006_00001),diseq(path_00001_00005_00002,path_00004_00006_00002)})
+watched-or({diseq(path_00003_00001_00001,path_00002_00002_00001),diseq(path_00003_00001_00002,path_00002_00002_00002),diseq(path_00002_00001_00001,path_00003_00002_00001),diseq(path_00002_00001_00002,path_00003_00002_00002)})
+watched-or({diseq(path_00002_00001_00001,path_00004_00002_00001),diseq(path_00002_00001_00002,path_00004_00002_00002),diseq(path_00004_00001_00001,path_00002_00002_00001),diseq(path_00004_00001_00002,path_00002_00002_00002)})
+watched-or({diseq(path_00003_00002_00001,path_00002_00003_00001),diseq(path_00003_00002_00002,path_00002_00003_00002),diseq(path_00002_00002_00001,path_00003_00003_00001),diseq(path_00002_00002_00002,path_00003_00003_00002)})
+watched-or({diseq(path_00004_00002_00001,path_00002_00003_00001),diseq(path_00004_00002_00002,path_00002_00003_00002),diseq(path_00002_00002_00001,path_00004_00003_00001),diseq(path_00002_00002_00002,path_00004_00003_00002)})
+watched-or({diseq(path_00002_00003_00001,path_00003_00004_00001),diseq(path_00002_00003_00002,path_00003_00004_00002),diseq(path_00002_00004_00001,path_00003_00003_00001),diseq(path_00002_00004_00002,path_00003_00003_00002)})
+watched-or({diseq(path_00002_00003_00001,path_00004_00004_00001),diseq(path_00002_00003_00002,path_00004_00004_00002),diseq(path_00002_00004_00001,path_00004_00003_00001),diseq(path_00002_00004_00002,path_00004_00003_00002)})
+watched-or({diseq(path_00002_00005_00001,path_00003_00004_00001),diseq(path_00002_00005_00002,path_00003_00004_00002),diseq(path_00002_00004_00001,path_00003_00005_00001),diseq(path_00002_00004_00002,path_00003_00005_00002)})
+watched-or({diseq(path_00002_00005_00001,path_00004_00004_00001),diseq(path_00002_00005_00002,path_00004_00004_00002),diseq(path_00002_00004_00001,path_00004_00005_00001),diseq(path_00002_00004_00002,path_00004_00005_00002)})
+watched-or({diseq(path_00003_00005_00001,path_00002_00006_00001),diseq(path_00003_00005_00002,path_00002_00006_00002),diseq(path_00002_00005_00001,path_00003_00006_00001),diseq(path_00002_00005_00002,path_00003_00006_00002)})
+watched-or({diseq(path_00004_00005_00001,path_00002_00006_00001),diseq(path_00004_00005_00002,path_00002_00006_00002),diseq(path_00002_00005_00001,path_00004_00006_00001),diseq(path_00002_00005_00002,path_00004_00006_00002)})
+watched-or({diseq(path_00004_00001_00001,path_00003_00002_00001),diseq(path_00004_00001_00002,path_00003_00002_00002),diseq(path_00003_00001_00001,path_00004_00002_00001),diseq(path_00003_00001_00002,path_00004_00002_00002)})
+watched-or({diseq(path_00004_00002_00001,path_00003_00003_00001),diseq(path_00004_00002_00002,path_00003_00003_00002),diseq(path_00003_00002_00001,path_00004_00003_00001),diseq(path_00003_00002_00002,path_00004_00003_00002)})
+watched-or({diseq(path_00004_00003_00001,path_00003_00004_00001),diseq(path_00004_00003_00002,path_00003_00004_00002),diseq(path_00003_00003_00001,path_00004_00004_00001),diseq(path_00003_00003_00002,path_00004_00004_00002)})
+watched-or({diseq(path_00004_00005_00001,path_00003_00004_00001),diseq(path_00004_00005_00002,path_00003_00004_00002),diseq(path_00003_00005_00001,path_00004_00004_00001),diseq(path_00003_00005_00002,path_00004_00004_00002)})
+watched-or({diseq(path_00004_00005_00001,path_00003_00006_00001),diseq(path_00004_00005_00002,path_00003_00006_00002),diseq(path_00003_00005_00001,path_00004_00006_00001),diseq(path_00003_00005_00002,path_00004_00006_00002)})
+weightedsumleq([1,-1],[path_00004_00002_00001,path_00004_00003_00001],aux47)
+weightedsumgeq([1,-1],[path_00004_00002_00001,path_00004_00003_00001],aux47)
+weightedsumleq([1,-1],[path_00004_00002_00002,path_00004_00003_00002],aux49)
+weightedsumgeq([1,-1],[path_00004_00002_00002,path_00004_00003_00002],aux49)
+weightedsumleq([1,-1],[path_00003_00001_00001,path_00003_00002_00001],aux51)
+weightedsumgeq([1,-1],[path_00003_00001_00001,path_00003_00002_00001],aux51)
+weightedsumleq([1,-1],[path_00003_00001_00002,path_00003_00002_00002],aux53)
+weightedsumgeq([1,-1],[path_00003_00001_00002,path_00003_00002_00002],aux53)
+weightedsumleq([1,-1],[path_00002_00004_00001,path_00002_00005_00001],aux55)
+weightedsumgeq([1,-1],[path_00002_00004_00001,path_00002_00005_00001],aux55)
+weightedsumleq([1,-1],[path_00002_00004_00002,path_00002_00005_00002],aux57)
+weightedsumgeq([1,-1],[path_00002_00004_00002,path_00002_00005_00002],aux57)
+weightedsumleq([1,-1],[path_00002_00002_00001,path_00002_00003_00001],aux59)
+weightedsumgeq([1,-1],[path_00002_00002_00001,path_00002_00003_00001],aux59)
+weightedsumleq([1,-1],[path_00002_00002_00002,path_00002_00003_00002],aux61)
+weightedsumgeq([1,-1],[path_00002_00002_00002,path_00002_00003_00002],aux61)
+weightedsumleq([1,-1],[path_00001_00005_00001,path_00001_00006_00001],aux63)
+weightedsumgeq([1,-1],[path_00001_00005_00001,path_00001_00006_00001],aux63)
+weightedsumleq([1,-1],[path_00001_00005_00002,path_00001_00006_00002],aux65)
+weightedsumgeq([1,-1],[path_00001_00005_00002,path_00001_00006_00002],aux65)
+weightedsumleq([1,-1],[path_00001_00004_00001,path_00001_00005_00001],aux67)
+weightedsumgeq([1,-1],[path_00001_00004_00001,path_00001_00005_00001],aux67)
+weightedsumleq([1,-1],[path_00001_00004_00002,path_00001_00005_00002],aux69)
+weightedsumgeq([1,-1],[path_00001_00004_00002,path_00001_00005_00002],aux69)
+weightedsumleq([-1,1],[path_00004_00005_00001,path_00004_00004_00001],aux71)
+weightedsumgeq([-1,1],[path_00004_00005_00001,path_00004_00004_00001],aux71)
+weightedsumleq([-1,1],[path_00004_00005_00002,path_00004_00004_00002],aux73)
+weightedsumgeq([-1,1],[path_00004_00005_00002,path_00004_00004_00002],aux73)
+weightedsumleq([1,-1],[path_00003_00005_00001,path_00003_00006_00001],aux75)
+weightedsumgeq([1,-1],[path_00003_00005_00001,path_00003_00006_00001],aux75)
+weightedsumleq([1,-1],[path_00003_00005_00002,path_00003_00006_00002],aux77)
+weightedsumgeq([1,-1],[path_00003_00005_00002,path_00003_00006_00002],aux77)
+weightedsumleq([1,-1],[path_00001_00001_00001,path_00001_00002_00001],aux79)
+weightedsumgeq([1,-1],[path_00001_00001_00001,path_00001_00002_00001],aux79)
+weightedsumleq([1,-1],[path_00001_00001_00002,path_00001_00002_00002],aux81)
+weightedsumgeq([1,-1],[path_00001_00001_00002,path_00001_00002_00002],aux81)
+weightedsumleq([1,-1],[path_00004_00001_00001,path_00004_00002_00001],aux83)
+weightedsumgeq([1,-1],[path_00004_00001_00001,path_00004_00002_00001],aux83)
+weightedsumleq([1,-1],[path_00004_00001_00002,path_00004_00002_00002],aux85)
+weightedsumgeq([1,-1],[path_00004_00001_00002,path_00004_00002_00002],aux85)
+weightedsumleq([1,-1],[path_00004_00003_00001,path_00004_00004_00001],aux87)
+weightedsumgeq([1,-1],[path_00004_00003_00001,path_00004_00004_00001],aux87)
+weightedsumleq([1,-1],[path_00004_00003_00002,path_00004_00004_00002],aux89)
+weightedsumgeq([1,-1],[path_00004_00003_00002,path_00004_00004_00002],aux89)
+weightedsumleq([1,-1],[path_00003_00002_00001,path_00003_00003_00001],aux91)
+weightedsumgeq([1,-1],[path_00003_00002_00001,path_00003_00003_00001],aux91)
+weightedsumleq([1,-1],[path_00003_00002_00002,path_00003_00003_00002],aux93)
+weightedsumgeq([1,-1],[path_00003_00002_00002,path_00003_00003_00002],aux93)
+weightedsumleq([1,-1],[path_00001_00002_00001,path_00001_00003_00001],aux95)
+weightedsumgeq([1,-1],[path_00001_00002_00001,path_00001_00003_00001],aux95)
+weightedsumleq([1,-1],[path_00001_00002_00002,path_00001_00003_00002],aux97)
+weightedsumgeq([1,-1],[path_00001_00002_00002,path_00001_00003_00002],aux97)
+weightedsumleq([-1,1],[path_00001_00004_00001,path_00001_00003_00001],aux99)
+weightedsumgeq([-1,1],[path_00001_00004_00001,path_00001_00003_00001],aux99)
+weightedsumleq([-1,1],[path_00001_00004_00002,path_00001_00003_00002],aux101)
+weightedsumgeq([-1,1],[path_00001_00004_00002,path_00001_00003_00002],aux101)
+weightedsumleq([-1,1],[path_00002_00004_00001,path_00002_00003_00001],aux103)
+weightedsumgeq([-1,1],[path_00002_00004_00001,path_00002_00003_00001],aux103)
+weightedsumleq([-1,1],[path_00002_00004_00002,path_00002_00003_00002],aux105)
+weightedsumgeq([-1,1],[path_00002_00004_00002,path_00002_00003_00002],aux105)
+weightedsumleq([-1,1],[path_00003_00005_00001,path_00003_00004_00001],aux107)
+weightedsumgeq([-1,1],[path_00003_00005_00001,path_00003_00004_00001],aux107)
+weightedsumleq([-1,1],[path_00003_00005_00002,path_00003_00004_00002],aux109)
+weightedsumgeq([-1,1],[path_00003_00005_00002,path_00003_00004_00002],aux109)
+weightedsumleq([1,-1],[path_00002_00005_00001,path_00002_00006_00001],aux111)
+weightedsumgeq([1,-1],[path_00002_00005_00001,path_00002_00006_00001],aux111)
+weightedsumleq([1,-1],[path_00002_00005_00002,path_00002_00006_00002],aux113)
+weightedsumgeq([1,-1],[path_00002_00005_00002,path_00002_00006_00002],aux113)
+weightedsumleq([1,-1],[path_00003_00003_00001,path_00003_00004_00001],aux115)
+weightedsumgeq([1,-1],[path_00003_00003_00001,path_00003_00004_00001],aux115)
+weightedsumleq([1,-1],[path_00003_00003_00002,path_00003_00004_00002],aux117)
+weightedsumgeq([1,-1],[path_00003_00003_00002,path_00003_00004_00002],aux117)
+weightedsumleq([1,-1],[path_00004_00005_00001,path_00004_00006_00001],aux119)
+weightedsumgeq([1,-1],[path_00004_00005_00001,path_00004_00006_00001],aux119)
+weightedsumleq([1,-1],[path_00004_00005_00002,path_00004_00006_00002],aux121)
+weightedsumgeq([1,-1],[path_00004_00005_00002,path_00004_00006_00002],aux121)
+weightedsumleq([1,-1],[path_00002_00001_00001,path_00002_00002_00001],aux123)
+weightedsumgeq([1,-1],[path_00002_00001_00001,path_00002_00002_00001],aux123)
+weightedsumleq([1,-1],[path_00002_00001_00002,path_00002_00002_00002],aux125)
+weightedsumgeq([1,-1],[path_00002_00001_00002,path_00002_00002_00002],aux125)
+weightedsumleq([7,1,1],[interval_00001_00001,interval_00001_00003,-9],aux127)
+weightedsumgeq([7,1,1],[interval_00001_00001,interval_00001_00003,-9],aux127)
+weightedsumleq([1,7,1],[-9,interval_00002_00001,interval_00002_00003],aux128)
+weightedsumgeq([1,7,1],[-9,interval_00002_00001,interval_00002_00003],aux128)
+weightedsumleq([1,7,1],[-9,interval_00003_00001,interval_00003_00003],aux129)
+weightedsumgeq([1,7,1],[-9,interval_00003_00001,interval_00003_00003],aux129)
+weightedsumleq([7,1,1],[interval_00004_00001,interval_00004_00003,-9],aux130)
+weightedsumgeq([7,1,1],[interval_00004_00001,interval_00004_00003,-9],aux130)
+weightedsumleq([4,1],[path_00004_00006_00001,path_00004_00006_00002],aux131)
+weightedsumgeq([4,1],[path_00004_00006_00001,path_00004_00006_00002],aux131)
+weightedsumleq([4,1],[path_00003_00006_00001,path_00003_00006_00002],aux132)
+weightedsumgeq([4,1],[path_00003_00006_00001,path_00003_00006_00002],aux132)
+weightedsumleq([4,1],[path_00002_00006_00001,path_00002_00006_00002],aux133)
+weightedsumgeq([4,1],[path_00002_00006_00001,path_00002_00006_00002],aux133)
+weightedsumleq([4,1],[path_00001_00006_00001,path_00001_00006_00002],aux134)
+weightedsumgeq([4,1],[path_00001_00006_00001,path_00001_00006_00002],aux134)
+sumleq([robot_moves_00004_00000,robot_moves_00004_00001,robot_moves_00004_00002,robot_moves_00004_00003,robot_moves_00004_00004,robot_moves_00004_00005,robot_moves_00004_00006],aux135)
+sumgeq([robot_moves_00004_00000,robot_moves_00004_00001,robot_moves_00004_00002,robot_moves_00004_00003,robot_moves_00004_00004,robot_moves_00004_00005,robot_moves_00004_00006],aux135)
+sumleq([robot_moves_00003_00000,robot_moves_00003_00001,robot_moves_00003_00002,robot_moves_00003_00003,robot_moves_00003_00004,robot_moves_00003_00005,robot_moves_00003_00006],aux136)
+sumgeq([robot_moves_00003_00000,robot_moves_00003_00001,robot_moves_00003_00002,robot_moves_00003_00003,robot_moves_00003_00004,robot_moves_00003_00005,robot_moves_00003_00006],aux136)
+sumleq([robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006],aux137)
+sumgeq([robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006],aux137)
+sumleq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006],aux138)
+sumgeq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006],aux138)
+sumleq([aux48,aux50],aux3)
+sumgeq([aux48,aux50],aux3)
+sumleq([aux52,aux54],aux4)
+sumgeq([aux52,aux54],aux4)
+sumleq([aux56,aux58],aux5)
+sumgeq([aux56,aux58],aux5)
+sumleq([aux60,aux62],aux6)
+sumgeq([aux60,aux62],aux6)
+sumleq([aux64,aux66],aux7)
+sumgeq([aux64,aux66],aux7)
+sumleq([aux68,aux70],aux8)
+sumgeq([aux68,aux70],aux8)
+sumleq([aux72,aux74],aux9)
+sumgeq([aux72,aux74],aux9)
+sumleq([aux76,aux78],aux10)
+sumgeq([aux76,aux78],aux10)
+sumleq([aux80,aux82],aux11)
+sumgeq([aux80,aux82],aux11)
+sumleq([aux84,aux86],aux12)
+sumgeq([aux84,aux86],aux12)
+sumleq([aux88,aux90],aux13)
+sumgeq([aux88,aux90],aux13)
+sumleq([aux92,aux94],aux14)
+sumgeq([aux92,aux94],aux14)
+sumleq([aux96,aux98],aux15)
+sumgeq([aux96,aux98],aux15)
+sumleq([aux100,aux102],aux16)
+sumgeq([aux100,aux102],aux16)
+sumleq([aux104,aux106],aux17)
+sumgeq([aux104,aux106],aux17)
+sumleq([aux108,aux110],aux18)
+sumgeq([aux108,aux110],aux18)
+sumleq([aux112,aux114],aux19)
+sumgeq([aux112,aux114],aux19)
+sumleq([aux116,aux118],aux20)
+sumgeq([aux116,aux118],aux20)
+sumleq([aux120,aux122],aux21)
+sumgeq([aux120,aux122],aux21)
+sumleq([aux124,aux126],aux22)
+sumgeq([aux124,aux126],aux22)
+weightedsumleq([4,1],[path_00001_00003_00001,path_00001_00003_00002],aux23)
+weightedsumgeq([4,1],[path_00001_00003_00001,path_00001_00003_00002],aux23)
+weightedsumleq([4,1],[path_00002_00001_00001,path_00002_00001_00002],aux24)
+weightedsumgeq([4,1],[path_00002_00001_00001,path_00002_00001_00002],aux24)
+weightedsumleq([4,1],[path_00004_00004_00001,path_00004_00004_00002],aux25)
+weightedsumgeq([4,1],[path_00004_00004_00001,path_00004_00004_00002],aux25)
+weightedsumleq([4,1],[path_00004_00005_00001,path_00004_00005_00002],aux26)
+weightedsumgeq([4,1],[path_00004_00005_00001,path_00004_00005_00002],aux26)
+weightedsumleq([4,1],[path_00001_00005_00001,path_00001_00005_00002],aux27)
+weightedsumgeq([4,1],[path_00001_00005_00001,path_00001_00005_00002],aux27)
+weightedsumleq([4,1],[path_00001_00004_00001,path_00001_00004_00002],aux28)
+weightedsumgeq([4,1],[path_00001_00004_00001,path_00001_00004_00002],aux28)
+weightedsumleq([4,1],[path_00004_00003_00001,path_00004_00003_00002],aux29)
+weightedsumgeq([4,1],[path_00004_00003_00001,path_00004_00003_00002],aux29)
+weightedsumleq([4,1],[path_00002_00004_00001,path_00002_00004_00002],aux30)
+weightedsumgeq([4,1],[path_00002_00004_00001,path_00002_00004_00002],aux30)
+weightedsumleq([1,-1],[path_00002_00001_00001,path_00002_00001_00002],aux31)
+weightedsumgeq([1,-1],[path_00002_00001_00001,path_00002_00001_00002],aux31)
+weightedsumleq([4,1],[path_00001_00001_00001,path_00001_00001_00002],aux32)
+weightedsumgeq([4,1],[path_00001_00001_00001,path_00001_00001_00002],aux32)
+weightedsumleq([4,1],[path_00003_00004_00001,path_00003_00004_00002],aux33)
+weightedsumgeq([4,1],[path_00003_00004_00001,path_00003_00004_00002],aux33)
+weightedsumleq([4,1],[path_00004_00002_00001,path_00004_00002_00002],aux34)
+weightedsumgeq([4,1],[path_00004_00002_00001,path_00004_00002_00002],aux34)
+weightedsumleq([4,1],[path_00002_00005_00001,path_00002_00005_00002],aux35)
+weightedsumgeq([4,1],[path_00002_00005_00001,path_00002_00005_00002],aux35)
+weightedsumleq([4,1],[path_00001_00002_00001,path_00001_00002_00002],aux36)
+weightedsumgeq([4,1],[path_00001_00002_00001,path_00001_00002_00002],aux36)
+weightedsumleq([4,1],[path_00003_00003_00001,path_00003_00003_00002],aux37)
+weightedsumgeq([4,1],[path_00003_00003_00001,path_00003_00003_00002],aux37)
+weightedsumleq([4,1],[path_00003_00002_00001,path_00003_00002_00002],aux38)
+weightedsumgeq([4,1],[path_00003_00002_00001,path_00003_00002_00002],aux38)
+sumleq([path_00001_00001_00001,path_00001_00001_00002],aux39)
+sumgeq([path_00001_00001_00001,path_00001_00001_00002],aux39)
+weightedsumleq([4,1],[path_00002_00002_00001,path_00002_00002_00002],aux40)
+weightedsumgeq([4,1],[path_00002_00002_00001,path_00002_00002_00002],aux40)
+weightedsumleq([-1,1],[path_00003_00001_00001,path_00003_00001_00002],aux41)
+weightedsumgeq([-1,1],[path_00003_00001_00001,path_00003_00001_00002],aux41)
+weightedsumleq([4,1],[path_00002_00003_00001,path_00002_00003_00002],aux42)
+weightedsumgeq([4,1],[path_00002_00003_00001,path_00002_00003_00002],aux42)
+weightedsumleq([4,1],[path_00004_00001_00001,path_00004_00001_00002],aux43)
+weightedsumgeq([4,1],[path_00004_00001_00001,path_00004_00001_00002],aux43)
+weightedsumleq([4,1],[path_00003_00001_00001,path_00003_00001_00002],aux44)
+weightedsumgeq([4,1],[path_00003_00001_00001,path_00003_00001_00002],aux44)
+weightedsumleq([-1,-1],[path_00004_00001_00001,path_00004_00001_00002],aux45)
+weightedsumgeq([-1,-1],[path_00004_00001_00001,path_00004_00001_00002],aux45)
+weightedsumleq([4,1],[path_00003_00005_00001,path_00003_00005_00002],aux46)
+weightedsumgeq([4,1],[path_00003_00005_00001,path_00003_00005_00002],aux46)
+sumleq([robot_moves_00003_00000,robot_moves_00003_00001,robot_moves_00003_00002,robot_moves_00003_00003,robot_moves_00003_00004,robot_moves_00003_00005,robot_moves_00003_00006,robot_moves_00004_00000,robot_moves_00004_00001,robot_moves_00004_00002,robot_moves_00004_00003,robot_moves_00004_00004,robot_moves_00004_00005,robot_moves_00004_00006,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006],total_moves)
+sumgeq([robot_moves_00003_00000,robot_moves_00003_00001,robot_moves_00003_00002,robot_moves_00003_00003,robot_moves_00003_00004,robot_moves_00003_00005,robot_moves_00003_00006,robot_moves_00004_00000,robot_moves_00004_00001,robot_moves_00004_00002,robot_moves_00004_00003,robot_moves_00004_00004,robot_moves_00004_00005,robot_moves_00004_00006,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006],total_moves)
+sumleq([robot_task_occurance_00001_00001,robot_task_occurance_00002_00001,robot_task_occurance_00003_00001,robot_task_occurance_00004_00001],1)
+sumgeq([robot_task_occurance_00001_00001,robot_task_occurance_00002_00001,robot_task_occurance_00003_00001,robot_task_occurance_00004_00001],1)
+sumleq([robot_task_occurance_00001_00002,robot_task_occurance_00002_00002,robot_task_occurance_00003_00002,robot_task_occurance_00004_00002],1)
+sumgeq([robot_task_occurance_00001_00002,robot_task_occurance_00002_00002,robot_task_occurance_00003_00002,robot_task_occurance_00004_00002],1)
+sumleq([robot_task_occurance_00001_00003,robot_task_occurance_00002_00003,robot_task_occurance_00003_00003,robot_task_occurance_00004_00003],1)
+sumgeq([robot_task_occurance_00001_00003,robot_task_occurance_00002_00003,robot_task_occurance_00003_00003,robot_task_occurance_00004_00003],1)
+sumleq([robot_task_occurance_00001_00004,robot_task_occurance_00002_00004,robot_task_occurance_00003_00004,robot_task_occurance_00004_00004],1)
+sumgeq([robot_task_occurance_00001_00004,robot_task_occurance_00002_00004,robot_task_occurance_00003_00004,robot_task_occurance_00004_00004],1)
+weightedsumleq([4],[aux139],min_moves)
+weightedsumgeq([4],[aux139],min_moves)
+**EOF**

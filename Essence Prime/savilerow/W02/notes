@@ -1,0 +1,13 @@
+Run, solution stored in Ex1.eprime.solution
+./savilerow W02/Ex1.eprime -run-solver
+./savilerow W02/Ex1.eprime -run-solver -solutions-to-stdout
+
+Run with param
+./savilerow W02/Ex2.eprime  W02/Ex2.param -run-solver
+
+Detailed overview of code or execution
+cat W02/Ex1.eprime.info
+cat W02/Ex1.eprime.solution
+
+
+./savilerow -run-solver -solutions-to-stdout W02/sudoku.eprime W02/sudoku.param

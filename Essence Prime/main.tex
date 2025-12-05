@@ -1,0 +1,68 @@
+\documentclass{book}
+
+% to include algorithm environments
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+
+% -------------- took from conjure journal ----------------
+\usepackage{listings}
+\usepackage{courier}%  Get courier font that has bold teletype for listings.
+\lstset{
+basicstyle=\small\ttfamily,
+mathescape,
+escapechar=@,
+numbers=left,
+keywordstyle=\bfseries, 
+keywords = {language, ESSENCE, given, letting, find, such, that,
+            bool, int, matrix, enum, variant, record, set, mset,
+            sequence, function, relation, partition,
+            domain, total, surjective, be,
+            forAll, exists, sum, injective, in, preImage, range,
+            new, type, intersect, union, from,
+            minimising, maximising, of, indexed, by,
+            defined, maxSize, maxNumParts, size, regular, language, cheese
+            }
+showstringspaces=false,
+tabsize=1,
+breaklines=true,
+breakatwhitespace=false
+}
+% -------------- took from conjure journal ----------------
+
+% to draw figures
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+% to be able to have example environments
+\newtheorem{example}{Example}[section]
+
+\title{The Essence of Constraint Programming}
+\author{Joan Espasa Arxer}
+\date{TBA}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\chapter{Preface}
+Preface here
+% ...
+
+\mainmatter
+\chapter{Introduction}
+\input{introduction}
+
+\chapter{Starting Out}
+\input{starting_out}
+
+\appendix
+\chapter{First Appendix}
+Appendices
+
+\backmatter
+\chapter{Last note}
+Last notes before closing ...
+
+\end{document}

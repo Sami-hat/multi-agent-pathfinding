@@ -1,0 +1,33 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+**TUPLELIST**
+robot_pos 2 2
+1 1 
+2 1 
+**VARIABLES**
+ALIAS robot_pos[2,2]=[[1, 1], [2, 1]]
+**TUPLELIST**
+task_dest 2 2
+1 4 
+2 4 
+**VARIABLES**
+ALIAS task_dest[2,2]=[[1, 4], [2, 4]]
+**TUPLELIST**
+map 2 4
+0 1 0 0 
+0 2 0 0 
+**VARIABLES**
+ALIAS map[2,4]=[[0, 1, 0, 0], [0, 2, 0, 0]]
+**VARIABLES**
+ALIAS task_obj[2]=[1, 2]
+**SEARCH**
+PRINT[]
+VARORDER STATIC []
+**CONSTRAINTS**
+true()**EOF**

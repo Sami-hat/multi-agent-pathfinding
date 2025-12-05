@@ -1,0 +1,936 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 46
+# CSE_active_eliminated_expressions = 516
+# CSE_active_total_size = 276
+**VARIABLES**
+DISCRETE path_00001_00001_00001 #
+{1..2}
+DISCRETE path_00001_00001_00002 #
+{1..3}
+DISCRETE path_00001_00002_00001 #
+{1..3}
+DISCRETE path_00001_00002_00002 #
+{1..4}
+DISCRETE path_00001_00003_00001 #
+{1..4}
+DISCRETE path_00001_00003_00002 #
+{1..5}
+DISCRETE path_00001_00004_00001 #
+{1..4}
+DISCRETE path_00001_00004_00002 #
+{1..5}
+DISCRETE path_00001_00005_00001 #
+{1..4}
+DISCRETE path_00001_00005_00002 #
+{1..5}
+DISCRETE path_00001_00006_00001 #
+{1..4}
+DISCRETE path_00001_00006_00002 #
+{1..5}
+DISCRETE path_00001_00007_00001 #
+{1..4}
+DISCRETE path_00001_00007_00002 #
+{1..5}
+DISCRETE path_00001_00008_00001 #
+{1..4}
+DISCRETE path_00001_00008_00002 #
+{1..5}
+DISCRETE path_00001_00009_00001 #
+{1..4}
+DISCRETE path_00001_00009_00002 #
+{1..5}
+DISCRETE path_00001_00010_00001 #
+{1..4}
+DISCRETE path_00001_00010_00002 #
+{1..5}
+DISCRETE path_00001_00011_00001 #
+{1..4}
+DISCRETE path_00001_00011_00002 #
+{1..5}
+DISCRETE path_00001_00012_00001 #
+{1..4}
+DISCRETE path_00001_00012_00002 #
+{1..5}
+DISCRETE path_00002_00001_00001 #
+{1..3}
+DISCRETE path_00002_00001_00002 #
+{1..2}
+DISCRETE path_00002_00002_00001 #
+{1..4}
+DISCRETE path_00002_00002_00002 #
+{1..3}
+DISCRETE path_00002_00003_00001 #
+{1..4}
+DISCRETE path_00002_00003_00002 #
+{1..4}
+DISCRETE path_00002_00004_00001 #
+{1..4}
+DISCRETE path_00002_00004_00002 #
+{1..5}
+DISCRETE path_00002_00005_00001 #
+{1..4}
+DISCRETE path_00002_00005_00002 #
+{1..5}
+DISCRETE path_00002_00006_00001 #
+{1..4}
+DISCRETE path_00002_00006_00002 #
+{1..5}
+DISCRETE path_00002_00007_00001 #
+{1..4}
+DISCRETE path_00002_00007_00002 #
+{1..5}
+DISCRETE path_00002_00008_00001 #
+{1..4}
+DISCRETE path_00002_00008_00002 #
+{1..5}
+DISCRETE path_00002_00009_00001 #
+{1..4}
+DISCRETE path_00002_00009_00002 #
+{1..5}
+DISCRETE path_00002_00010_00001 #
+{1..4}
+DISCRETE path_00002_00010_00002 #
+{1..5}
+DISCRETE path_00002_00011_00001 #
+{1..4}
+DISCRETE path_00002_00011_00002 #
+{1..5}
+DISCRETE path_00002_00012_00001 #
+{1..4}
+DISCRETE path_00002_00012_00002 #
+{1..5}
+DISCRETE inventory_00001_00001 #
+{0..4}
+DISCRETE inventory_00001_00002 #
+{0..4}
+DISCRETE inventory_00001_00003 #
+{0..4}
+DISCRETE inventory_00001_00004 #
+{0..4}
+DISCRETE inventory_00001_00005 #
+{0..4}
+DISCRETE inventory_00001_00006 #
+{0..4}
+DISCRETE inventory_00001_00007 #
+{0..4}
+DISCRETE inventory_00001_00008 #
+{0..4}
+DISCRETE inventory_00001_00009 #
+{0..4}
+DISCRETE inventory_00001_00010 #
+{0..4}
+DISCRETE inventory_00001_00011 #
+{0..4}
+DISCRETE inventory_00001_00012 #
+{0..4}
+DISCRETE inventory_00002_00001 #
+{0..4}
+DISCRETE inventory_00002_00002 #
+{0..4}
+DISCRETE inventory_00002_00003 #
+{0..4}
+DISCRETE inventory_00002_00004 #
+{0..4}
+DISCRETE inventory_00002_00005 #
+{0..4}
+DISCRETE inventory_00002_00006 #
+{0..4}
+DISCRETE inventory_00002_00007 #
+{0..4}
+DISCRETE inventory_00002_00008 #
+{0..4}
+DISCRETE inventory_00002_00009 #
+{0..4}
+DISCRETE inventory_00002_00010 #
+{0..4}
+DISCRETE inventory_00002_00011 #
+{0..4}
+DISCRETE inventory_00002_00012 #
+{0..4}
+DISCRETE interval_00001_00001 #
+{1..2}
+DISCRETE interval_00001_00002 #
+{2..11}
+DISCRETE interval_00001_00003 #
+{4..12}
+DISCRETE interval_00002_00001 #
+{1..2}
+DISCRETE interval_00002_00002 #
+{2..11}
+DISCRETE interval_00002_00003 #
+{4..12}
+DISCRETE interval_00003_00001 #
+{1..2}
+DISCRETE interval_00003_00002 #
+{1..11}
+DISCRETE interval_00003_00003 #
+{4..12}
+DISCRETE interval_00004_00001 #
+{1..2}
+DISCRETE interval_00004_00002 #
+{1..11}
+DISCRETE interval_00004_00003 #
+{4..12}
+DISCRETE robot_task_occurance_00001_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00001_00004 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00001 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00002 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00003 #
+{0..1}
+DISCRETE robot_task_occurance_00002_00004 #
+{0..1}
+BOOL robot_moves_00001_00000 #
+BOOL robot_moves_00001_00001 #
+BOOL robot_moves_00001_00002 #
+BOOL robot_moves_00001_00003 #
+BOOL robot_moves_00001_00004 #
+BOOL robot_moves_00001_00005 #
+BOOL robot_moves_00001_00006 #
+BOOL robot_moves_00001_00007 #
+BOOL robot_moves_00001_00008 #
+BOOL robot_moves_00001_00009 #
+BOOL robot_moves_00001_00010 #
+BOOL robot_moves_00001_00011 #
+BOOL robot_moves_00001_00012 #
+BOOL robot_moves_00002_00000 #
+BOOL robot_moves_00002_00001 #
+BOOL robot_moves_00002_00002 #
+BOOL robot_moves_00002_00003 #
+BOOL robot_moves_00002_00004 #
+BOOL robot_moves_00002_00005 #
+BOOL robot_moves_00002_00006 #
+BOOL robot_moves_00002_00007 #
+BOOL robot_moves_00002_00008 #
+BOOL robot_moves_00002_00009 #
+BOOL robot_moves_00002_00010 #
+BOOL robot_moves_00002_00011 #
+BOOL robot_moves_00002_00012 #
+DISCRETE total_moves #
+{2..24}
+DISCRETE min_moves #
+{2..24}
+BOOL aux5 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00009_00001 - path_00001_00010_00001)| + |(path_00001_00009_00002 - path_00001_00010_00002)|)
+BOOL aux6 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00004_00001 - path_00002_00005_00001)| + |(path_00002_00004_00002 - path_00002_00005_00002)|)
+BOOL aux7 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00002_00001 - path_00002_00003_00001)| + |(path_00002_00002_00002 - path_00002_00003_00002)|)
+BOOL aux8 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00002_00012_00001 + path_00002_00011_00001)| + |( - path_00002_00012_00002 + path_00002_00011_00002)|)
+BOOL aux9 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00005_00001 - path_00001_00006_00001)| + |(path_00001_00005_00002 - path_00001_00006_00002)|)
+BOOL aux10 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00007_00001 - path_00002_00008_00001)| + |(path_00002_00007_00002 - path_00002_00008_00002)|)
+BOOL aux11 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00002_00009_00001 + path_00002_00008_00001)| + |( - path_00002_00009_00002 + path_00002_00008_00002)|)
+BOOL aux12 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00004_00001 - path_00001_00005_00001)| + |(path_00001_00004_00002 - path_00001_00005_00002)|)
+BOOL aux13 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00006_00001 - path_00002_00007_00001)| + |(path_00002_00006_00002 - path_00002_00007_00002)|)
+BOOL aux14 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00010_00001 - path_00002_00011_00001)| + |(path_00002_00010_00002 - path_00002_00011_00002)|)
+BOOL aux15 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00001_00001 - path_00001_00002_00001)| + |(path_00001_00001_00002 - path_00001_00002_00002)|)
+BOOL aux16 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00009_00001 - path_00002_00010_00001)| + |(path_00002_00009_00002 - path_00002_00010_00002)|)
+BOOL aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00001_00009_00001 + path_00001_00008_00001)| + |( - path_00001_00009_00002 + path_00001_00008_00002)|)
+BOOL aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00002_00001 - path_00001_00003_00001)| + |(path_00001_00002_00002 - path_00001_00003_00002)|)
+BOOL aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00001_00004_00001 + path_00001_00003_00001)| + |( - path_00001_00004_00002 + path_00001_00003_00002)|)
+BOOL aux20 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00007_00001 - path_00001_00008_00001)| + |(path_00001_00007_00002 - path_00001_00008_00002)|)
+BOOL aux21 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00002_00004_00001 + path_00002_00003_00001)| + |( - path_00002_00004_00002 + path_00002_00003_00002)|)
+BOOL aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00006_00001 - path_00001_00007_00001)| + |(path_00001_00006_00002 - path_00001_00007_00002)|)
+BOOL aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00005_00001 - path_00002_00006_00001)| + |(path_00002_00005_00002 - path_00002_00006_00002)|)
+BOOL aux24 #Active-CSE: 2 occurrences of this expression or equivalent: (|( - path_00001_00012_00001 + path_00001_00011_00001)| + |( - path_00001_00012_00002 + path_00001_00011_00002)|)
+BOOL aux25 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00001_00010_00001 - path_00001_00011_00001)| + |(path_00001_00010_00002 - path_00001_00011_00002)|)
+BOOL aux26 #Active-CSE: 2 occurrences of this expression or equivalent: (|(path_00002_00001_00001 - path_00002_00002_00001)| + |(path_00002_00001_00002 - path_00002_00002_00002)|)
+DISCRETE aux27 #Active-CSE: 2 occurrences of this expression or equivalent: (path_00002_00001_00002 + |( - path_00002_00001_00001 + 2)|)
+{1..2}
+DISCRETE aux28 #Active-CSE: 2 occurrences of this expression or equivalent: (path_00001_00001_00001 + |( - path_00001_00001_00002 + 2)|)
+{1..2}
+DISCRETE aux29 #Active-CSE: 12 occurrences of this expression or equivalent: (5*path_00001_00009_00001 + path_00001_00009_00002)
+{6..25}
+DISCRETE aux30 #Active-CSE: 20 occurrences of this expression or equivalent: (5*path_00001_00007_00001 + path_00001_00007_00002)
+{6..25}
+DISCRETE aux31 #Active-CSE: 18 occurrences of this expression or equivalent: (5*path_00001_00001_00001 + path_00001_00001_00002)
+{6..12}
+**CONSTRAINTS**
+w-inintervalset(aux31, [6,8,11,12])
+**VARIABLES**
+DISCRETE aux32 #Active-CSE: 36 occurrences of this expression or equivalent: (5*path_00001_00003_00001 + path_00001_00003_00002)
+{6..22}
+DISCRETE aux33 #Active-CSE: 36 occurrences of this expression or equivalent: (5*path_00002_00003_00001 + path_00002_00003_00002)
+{6..22}
+**CONSTRAINTS**
+w-inintervalset(aux33, [6,9,11,14,16,19,21,22])
+**VARIABLES**
+DISCRETE aux34 #Active-CSE: 18 occurrences of this expression or equivalent: (5*path_00002_00001_00001 + path_00002_00001_00002)
+{6..16}
+**CONSTRAINTS**
+w-inintervalset(aux34, [6,7,11,12,16,16])
+**VARIABLES**
+DISCRETE aux35 #Active-CSE: 24 occurrences of this expression or equivalent: (5*path_00002_00006_00001 + path_00002_00006_00002)
+{6..25}
+DISCRETE aux36 #Active-CSE: 4 occurrences of this expression or equivalent: (5*path_00001_00011_00001 + path_00001_00011_00002)
+{6..25}
+DISCRETE aux37 #Active-CSE: 32 occurrences of this expression or equivalent: (5*path_00001_00004_00001 + path_00001_00004_00002)
+{6..23}
+DISCRETE aux38 #Active-CSE: 20 occurrences of this expression or equivalent: (5*path_00002_00007_00001 + path_00002_00007_00002)
+{6..25}
+DISCRETE aux39 #Active-CSE: 8 occurrences of this expression or equivalent: (5*path_00002_00010_00001 + path_00002_00010_00002)
+{6..25}
+DISCRETE aux40 #Active-CSE: 16 occurrences of this expression or equivalent: (5*path_00001_00008_00001 + path_00001_00008_00002)
+{6..25}
+DISCRETE aux41 #Active-CSE: 36 occurrences of this expression or equivalent: (5*path_00001_00002_00001 + path_00001_00002_00002)
+{6..17}
+**CONSTRAINTS**
+w-inintervalset(aux41, [6,9,11,14,16,17])
+**VARIABLES**
+DISCRETE aux42 #Active-CSE: 16 occurrences of this expression or equivalent: (5*path_00002_00008_00001 + path_00002_00008_00002)
+{6..25}
+DISCRETE aux43 #Active-CSE: 4 occurrences of this expression or equivalent: (5*path_00002_00011_00001 + path_00002_00011_00002)
+{6..25}
+DISCRETE aux44 #Active-CSE: 28 occurrences of this expression or equivalent: (5*path_00002_00005_00001 + path_00002_00005_00002)
+{6..24}
+DISCRETE aux45 #Active-CSE: 28 occurrences of this expression or equivalent: (5*path_00001_00005_00001 + path_00001_00005_00002)
+{6..25}
+DISCRETE aux46 #Active-CSE: 36 occurrences of this expression or equivalent: (5*path_00002_00002_00001 + path_00002_00002_00002)
+{6..21}
+**CONSTRAINTS**
+w-inintervalset(aux46, [6,8,11,13,16,18,21,21])
+**VARIABLES**
+DISCRETE aux47 #Active-CSE: 8 occurrences of this expression or equivalent: (5*path_00001_00010_00001 + path_00001_00010_00002)
+{6..25}
+DISCRETE aux48 #Active-CSE: 32 occurrences of this expression or equivalent: (5*path_00002_00004_00001 + path_00002_00004_00002)
+{6..23}
+DISCRETE aux49 #Active-CSE: 12 occurrences of this expression or equivalent: (5*path_00002_00009_00001 + path_00002_00009_00002)
+{6..25}
+DISCRETE aux50 #Active-CSE: 24 occurrences of this expression or equivalent: (5*path_00001_00006_00001 + path_00001_00006_00002)
+{6..25}
+DISCRETE aux51 #(path_00001_00009_00001 - path_00001_00010_00001)
+{-1..1}
+BOOL aux52 #|aux51|
+DISCRETE aux53 #(path_00001_00009_00002 - path_00001_00010_00002)
+{-1..1}
+BOOL aux54 #|aux53|
+DISCRETE aux55 #(path_00002_00004_00001 - path_00002_00005_00001)
+{-1..1}
+BOOL aux56 #|aux55|
+DISCRETE aux57 #(path_00002_00004_00002 - path_00002_00005_00002)
+{-1..1}
+BOOL aux58 #|aux57|
+DISCRETE aux59 #(path_00002_00002_00001 - path_00002_00003_00001)
+{-1..1}
+BOOL aux60 #|aux59|
+DISCRETE aux61 #(path_00002_00002_00002 - path_00002_00003_00002)
+{-1..1}
+BOOL aux62 #|aux61|
+DISCRETE aux63 #( - path_00002_00012_00001 + path_00002_00011_00001)
+{-1..1}
+BOOL aux64 #|aux63|
+DISCRETE aux65 #( - path_00002_00012_00002 + path_00002_00011_00002)
+{-1..1}
+BOOL aux66 #|aux65|
+DISCRETE aux67 #(path_00001_00005_00001 - path_00001_00006_00001)
+{-1..1}
+BOOL aux68 #|aux67|
+DISCRETE aux69 #(path_00001_00005_00002 - path_00001_00006_00002)
+{-1..1}
+BOOL aux70 #|aux69|
+DISCRETE aux71 #(path_00002_00007_00001 - path_00002_00008_00001)
+{-1..1}
+BOOL aux72 #|aux71|
+DISCRETE aux73 #(path_00002_00007_00002 - path_00002_00008_00002)
+{-1..1}
+BOOL aux74 #|aux73|
+DISCRETE aux75 #( - path_00002_00009_00001 + path_00002_00008_00001)
+{-1..1}
+BOOL aux76 #|aux75|
+DISCRETE aux77 #( - path_00002_00009_00002 + path_00002_00008_00002)
+{-1..1}
+BOOL aux78 #|aux77|
+DISCRETE aux79 #(path_00001_00004_00001 - path_00001_00005_00001)
+{-1..1}
+BOOL aux80 #|aux79|
+DISCRETE aux81 #(path_00001_00004_00002 - path_00001_00005_00002)
+{-1..1}
+BOOL aux82 #|aux81|
+DISCRETE aux83 #(path_00002_00006_00001 - path_00002_00007_00001)
+{-1..1}
+BOOL aux84 #|aux83|
+DISCRETE aux85 #(path_00002_00006_00002 - path_00002_00007_00002)
+{-1..1}
+BOOL aux86 #|aux85|
+DISCRETE aux87 #(path_00002_00010_00001 - path_00002_00011_00001)
+{-1..1}
+BOOL aux88 #|aux87|
+DISCRETE aux89 #(path_00002_00010_00002 - path_00002_00011_00002)
+{-1..1}
+BOOL aux90 #|aux89|
+DISCRETE aux91 #(path_00001_00001_00001 - path_00001_00002_00001)
+{-1..1}
+BOOL aux92 #|aux91|
+DISCRETE aux93 #(path_00001_00001_00002 - path_00001_00002_00002)
+{-1..1}
+BOOL aux94 #|aux93|
+DISCRETE aux95 #(path_00002_00009_00001 - path_00002_00010_00001)
+{-1..1}
+BOOL aux96 #|aux95|
+DISCRETE aux97 #(path_00002_00009_00002 - path_00002_00010_00002)
+{-1..1}
+BOOL aux98 #|aux97|
+DISCRETE aux99 #( - path_00001_00009_00001 + path_00001_00008_00001)
+{-1..1}
+BOOL aux100 #|aux99|
+DISCRETE aux101 #( - path_00001_00009_00002 + path_00001_00008_00002)
+{-1..1}
+BOOL aux102 #|aux101|
+DISCRETE aux103 #(path_00001_00002_00001 - path_00001_00003_00001)
+{-1..1}
+BOOL aux104 #|aux103|
+DISCRETE aux105 #(path_00001_00002_00002 - path_00001_00003_00002)
+{-1..1}
+BOOL aux106 #|aux105|
+DISCRETE aux107 #( - path_00001_00004_00001 + path_00001_00003_00001)
+{-1..1}
+BOOL aux108 #|aux107|
+DISCRETE aux109 #( - path_00001_00004_00002 + path_00001_00003_00002)
+{-1..1}
+BOOL aux110 #|aux109|
+DISCRETE aux111 #(path_00001_00007_00001 - path_00001_00008_00001)
+{-1..1}
+BOOL aux112 #|aux111|
+DISCRETE aux113 #(path_00001_00007_00002 - path_00001_00008_00002)
+{-1..1}
+BOOL aux114 #|aux113|
+DISCRETE aux115 #( - path_00002_00004_00001 + path_00002_00003_00001)
+{-1..1}
+BOOL aux116 #|aux115|
+DISCRETE aux117 #( - path_00002_00004_00002 + path_00002_00003_00002)
+{-1..1}
+BOOL aux118 #|aux117|
+DISCRETE aux119 #(path_00001_00006_00001 - path_00001_00007_00001)
+{-1..1}
+BOOL aux120 #|aux119|
+DISCRETE aux121 #(path_00001_00006_00002 - path_00001_00007_00002)
+{-1..1}
+BOOL aux122 #|aux121|
+DISCRETE aux123 #(path_00002_00005_00001 - path_00002_00006_00001)
+{-1..1}
+BOOL aux124 #|aux123|
+DISCRETE aux125 #(path_00002_00005_00002 - path_00002_00006_00002)
+{-1..1}
+BOOL aux126 #|aux125|
+DISCRETE aux127 #( - path_00001_00012_00001 + path_00001_00011_00001)
+{-1..1}
+BOOL aux128 #|aux127|
+DISCRETE aux129 #( - path_00001_00012_00002 + path_00001_00011_00002)
+{-1..1}
+BOOL aux130 #|aux129|
+DISCRETE aux131 #(path_00001_00010_00001 - path_00001_00011_00001)
+{-1..1}
+BOOL aux132 #|aux131|
+DISCRETE aux133 #(path_00001_00010_00002 - path_00001_00011_00002)
+{-1..1}
+BOOL aux134 #|aux133|
+DISCRETE aux135 #(path_00002_00001_00001 - path_00002_00002_00001)
+{-1..1}
+BOOL aux136 #|aux135|
+DISCRETE aux137 #(path_00002_00001_00002 - path_00002_00002_00002)
+{-1..1}
+BOOL aux138 #|aux137|
+DISCRETE aux139 #( - path_00002_00001_00001 + 2)
+{-1..1}
+BOOL aux140 #|aux139|
+DISCRETE aux141 #( - path_00001_00001_00002 + 2)
+{-1..1}
+BOOL aux142 #|aux141|
+DISCRETE aux143 #(13*interval_00001_00001 + interval_00001_00003 + -16)
+{1..22}
+**CONSTRAINTS**
+w-inintervalset(aux143, [1,9,14,22])
+**VARIABLES**
+DISCRETE aux144 #(-16 + 13*interval_00002_00001 + interval_00002_00003)
+{1..22}
+**CONSTRAINTS**
+w-inintervalset(aux144, [1,9,14,22])
+**VARIABLES**
+DISCRETE aux145 #(-16 + 13*interval_00003_00001 + interval_00003_00003)
+{1..22}
+**CONSTRAINTS**
+w-inintervalset(aux145, [1,9,14,22])
+**VARIABLES**
+DISCRETE aux146 #(13*interval_00004_00001 + interval_00004_00003 + -16)
+{1..22}
+**CONSTRAINTS**
+w-inintervalset(aux146, [1,9,14,22])
+**VARIABLES**
+DISCRETE aux147 #(5*path_00002_00001_00001 + path_00002_00001_00002 - 5*path_00001_00001_00001 - path_00001_00001_00002)
+{-6..10}
+**CONSTRAINTS**
+w-inintervalset(aux147, [-6,-4,-2,-1,1,1,3,6,8,10])
+**VARIABLES**
+DISCRETE aux148 #(5*path_00002_00002_00001 + path_00002_00002_00002 - 5*path_00001_00002_00001 - path_00001_00002_00002)
+{-11..15}
+**CONSTRAINTS**
+w-inintervalset(aux148, [-11,-1,1,15])
+**VARIABLES**
+DISCRETE aux149 #(5*path_00002_00003_00001 + path_00002_00003_00002 - 5*path_00001_00003_00001 - path_00001_00003_00002)
+{-16..16}
+**CONSTRAINTS**
+w-inintervalset(aux149, [-16,-1,1,16])
+**VARIABLES**
+DISCRETE aux150 #(5*path_00002_00004_00001 + path_00002_00004_00002 - 5*path_00001_00004_00001 - path_00001_00004_00002)
+{-17..17}
+**CONSTRAINTS**
+w-inintervalset(aux150, [-17,-1,1,17])
+**VARIABLES**
+DISCRETE aux151 #( - 5*path_00002_00005_00001 - path_00002_00005_00002 + 5*path_00001_00005_00001 + path_00001_00005_00002)
+{-18..19}
+**CONSTRAINTS**
+w-inintervalset(aux151, [-18,-1,1,19])
+**VARIABLES**
+DISCRETE aux152 #(5*path_00002_00006_00001 + path_00002_00006_00002 - 5*path_00001_00006_00001 - path_00001_00006_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux152, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux153 #(5*path_00002_00007_00001 + path_00002_00007_00002 - 5*path_00001_00007_00001 - path_00001_00007_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux153, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux154 #(5*path_00002_00008_00001 + path_00002_00008_00002 - 5*path_00001_00008_00001 - path_00001_00008_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux154, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux155 #(5*path_00002_00009_00001 + path_00002_00009_00002 - 5*path_00001_00009_00001 - path_00001_00009_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux155, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux156 #( - 5*path_00002_00010_00001 - path_00002_00010_00002 + 5*path_00001_00010_00001 + path_00001_00010_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux156, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux157 #(5*path_00002_00011_00001 + path_00002_00011_00002 - 5*path_00001_00011_00001 - path_00001_00011_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux157, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux158 #(5*path_00002_00012_00001 + path_00002_00012_00002 - 5*path_00001_00012_00001 - path_00001_00012_00002)
+{-19..19}
+**CONSTRAINTS**
+w-inintervalset(aux158, [-19,-1,1,19])
+**VARIABLES**
+DISCRETE aux159 #(robot_moves_00002_00000 + robot_moves_00002_00001 + robot_moves_00002_00002 + robot_moves_00002_00003 + robot_moves_00002_00004 + robot_moves_00002_00005 + robot_moves_00002_00006 + robot_moves_00002_00007 + robot_moves_00002_00008 + robot_moves_00002_00009 + robot_moves_00002_00010 + robot_moves_00002_00011 + robot_moves_00002_00012)
+{1..13}
+DISCRETE aux160 #(robot_moves_00001_00000 + robot_moves_00001_00001 + robot_moves_00001_00002 + robot_moves_00001_00003 + robot_moves_00001_00004 + robot_moves_00001_00005 + robot_moves_00001_00006 + robot_moves_00001_00007 + robot_moves_00001_00008 + robot_moves_00001_00009 + robot_moves_00001_00010 + robot_moves_00001_00011 + robot_moves_00001_00012)
+{1..13}
+DISCRETE aux161 #min(aux159, aux160)
+{1..12}
+**TUPLELIST**
+robot_pos 2 2
+1 2 
+2 1 
+**VARIABLES**
+ALIAS robot_pos[2,2]=[[1, 2], [2, 1]]
+**TUPLELIST**
+task_dest 4 2
+1 5 
+2 5 
+3 5 
+4 5 
+**VARIABLES**
+ALIAS task_dest[4,2]=[[1, 5], [2, 5], [3, 5], [4, 5]]
+**TUPLELIST**
+map 4 5
+0 0 0 0 0 
+0 0 2 0 0 
+0 0 1 0 0 
+0 0 0 0 0 
+**VARIABLES**
+ALIAS map[4,5]=[[0, 0, 0, 0, 0], [0, 0, 2, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0]]
+**VARIABLES**
+ALIAS task_obj[4]=[1, 1, 2, 2]
+**SEARCH**
+PRINT[[path_00001_00001_00001],[path_00001_00001_00002],[path_00001_00002_00001],[path_00001_00002_00002],[path_00001_00003_00001],[path_00001_00003_00002],[path_00001_00004_00001],[path_00001_00004_00002],[path_00001_00005_00001],[path_00001_00005_00002],[path_00001_00006_00001],[path_00001_00006_00002],[path_00001_00007_00001],[path_00001_00007_00002],[path_00001_00008_00001],[path_00001_00008_00002],[path_00001_00009_00001],[path_00001_00009_00002],[path_00001_00010_00001],[path_00001_00010_00002],[path_00001_00011_00001],[path_00001_00011_00002],[path_00001_00012_00001],[path_00001_00012_00002],[path_00002_00001_00001],[path_00002_00001_00002],[path_00002_00002_00001],[path_00002_00002_00002],[path_00002_00003_00001],[path_00002_00003_00002],[path_00002_00004_00001],[path_00002_00004_00002],[path_00002_00005_00001],[path_00002_00005_00002],[path_00002_00006_00001],[path_00002_00006_00002],[path_00002_00007_00001],[path_00002_00007_00002],[path_00002_00008_00001],[path_00002_00008_00002],[path_00002_00009_00001],[path_00002_00009_00002],[path_00002_00010_00001],[path_00002_00010_00002],[path_00002_00011_00001],[path_00002_00011_00002],[path_00002_00012_00001],[path_00002_00012_00002],[inventory_00001_00001],[inventory_00001_00002],[inventory_00001_00003],[inventory_00001_00004],[inventory_00001_00005],[inventory_00001_00006],[inventory_00001_00007],[inventory_00001_00008],[inventory_00001_00009],[inventory_00001_00010],[inventory_00001_00011],[inventory_00001_00012],[inventory_00002_00001],[inventory_00002_00002],[inventory_00002_00003],[inventory_00002_00004],[inventory_00002_00005],[inventory_00002_00006],[inventory_00002_00007],[inventory_00002_00008],[inventory_00002_00009],[inventory_00002_00010],[inventory_00002_00011],[inventory_00002_00012],[interval_00001_00001],[interval_00001_00002],[interval_00001_00003],[interval_00002_00001],[interval_00002_00002],[interval_00002_00003],[interval_00003_00001],[interval_00003_00002],[interval_00003_00003],[interval_00004_00001],[interval_00004_00002],[interval_00004_00003],[robot_task_occurance_00001_00001],[robot_task_occurance_00001_00002],[robot_task_occurance_00001_00003],[robot_task_occurance_00001_00004],[robot_task_occurance_00002_00001],[robot_task_occurance_00002_00002],[robot_task_occurance_00002_00003],[robot_task_occurance_00002_00004],[robot_moves_00001_00000],[robot_moves_00001_00001],[robot_moves_00001_00002],[robot_moves_00001_00003],[robot_moves_00001_00004],[robot_moves_00001_00005],[robot_moves_00001_00006],[robot_moves_00001_00007],[robot_moves_00001_00008],[robot_moves_00001_00009],[robot_moves_00001_00010],[robot_moves_00001_00011],[robot_moves_00001_00012],[robot_moves_00002_00000],[robot_moves_00002_00001],[robot_moves_00002_00002],[robot_moves_00002_00003],[robot_moves_00002_00004],[robot_moves_00002_00005],[robot_moves_00002_00006],[robot_moves_00002_00007],[robot_moves_00002_00008],[robot_moves_00002_00009],[robot_moves_00002_00010],[robot_moves_00002_00011],[robot_moves_00002_00012],[total_moves],[min_moves]]
+VARORDER STATIC [interval_00001_00001, interval_00001_00002, interval_00001_00003, interval_00002_00001, interval_00002_00002, interval_00002_00003, interval_00003_00001, interval_00003_00002, interval_00003_00003, interval_00004_00001, interval_00004_00002, interval_00004_00003]
+**CONSTRAINTS**
+abs(aux52, aux51)
+abs(aux54, aux53)
+abs(aux56, aux55)
+abs(aux58, aux57)
+abs(aux60, aux59)
+abs(aux62, aux61)
+abs(aux64, aux63)
+abs(aux66, aux65)
+abs(aux68, aux67)
+abs(aux70, aux69)
+abs(aux72, aux71)
+abs(aux74, aux73)
+abs(aux76, aux75)
+abs(aux78, aux77)
+abs(aux80, aux79)
+abs(aux82, aux81)
+abs(aux84, aux83)
+abs(aux86, aux85)
+abs(aux88, aux87)
+abs(aux90, aux89)
+abs(aux92, aux91)
+abs(aux94, aux93)
+abs(aux96, aux95)
+abs(aux98, aux97)
+abs(aux100, aux99)
+abs(aux102, aux101)
+abs(aux104, aux103)
+abs(aux106, aux105)
+abs(aux108, aux107)
+abs(aux110, aux109)
+abs(aux112, aux111)
+abs(aux114, aux113)
+abs(aux116, aux115)
+abs(aux118, aux117)
+abs(aux120, aux119)
+abs(aux122, aux121)
+abs(aux124, aux123)
+abs(aux126, aux125)
+abs(aux128, aux127)
+abs(aux130, aux129)
+abs(aux132, aux131)
+abs(aux134, aux133)
+abs(aux136, aux135)
+abs(aux138, aux137)
+abs(aux140, aux139)
+abs(aux142, aux141)
+min([aux159,aux160],aux161)
+ineq(min_moves, total_moves, 0)
+watched-or({watched-and({w-literal(aux28,1),w-literal(robot_moves_00001_00000,0)}),watched-and({w-literal(aux28,2),w-literal(robot_moves_00001_00000,1)})})
+watched-or({watched-and({w-literal(aux15,1),w-literal(robot_moves_00001_00001,1)}),watched-and({w-literal(aux15,0),w-literal(robot_moves_00001_00001,0)})})
+watched-or({watched-and({w-literal(aux18,1),w-literal(robot_moves_00001_00002,1)}),watched-and({w-literal(aux18,0),w-literal(robot_moves_00001_00002,0)})})
+watched-or({watched-and({w-literal(aux19,1),w-literal(robot_moves_00001_00003,1)}),watched-and({w-literal(aux19,0),w-literal(robot_moves_00001_00003,0)})})
+watched-or({watched-and({w-literal(aux12,1),w-literal(robot_moves_00001_00004,1)}),watched-and({w-literal(aux12,0),w-literal(robot_moves_00001_00004,0)})})
+watched-or({watched-and({w-literal(aux9,1),w-literal(robot_moves_00001_00005,1)}),watched-and({w-literal(aux9,0),w-literal(robot_moves_00001_00005,0)})})
+watched-or({watched-and({w-literal(aux22,0),w-literal(robot_moves_00001_00006,0)}),watched-and({w-literal(aux22,1),w-literal(robot_moves_00001_00006,1)})})
+watched-or({watched-and({w-literal(aux20,1),w-literal(robot_moves_00001_00007,1)}),watched-and({w-literal(aux20,0),w-literal(robot_moves_00001_00007,0)})})
+watched-or({watched-and({w-literal(aux17,1),w-literal(robot_moves_00001_00008,1)}),watched-and({w-literal(aux17,0),w-literal(robot_moves_00001_00008,0)})})
+watched-or({watched-and({w-literal(aux5,1),w-literal(robot_moves_00001_00009,1)}),watched-and({w-literal(aux5,0),w-literal(robot_moves_00001_00009,0)})})
+watched-or({watched-and({w-literal(aux25,1),w-literal(robot_moves_00001_00010,1)}),watched-and({w-literal(aux25,0),w-literal(robot_moves_00001_00010,0)})})
+watched-or({watched-and({w-literal(aux24,0),w-literal(robot_moves_00001_00011,0)}),watched-and({w-literal(aux24,1),w-literal(robot_moves_00001_00011,1)})})
+watched-or({watched-and({w-literal(aux27,1),w-literal(robot_moves_00002_00000,0)}),watched-and({w-literal(aux27,2),w-literal(robot_moves_00002_00000,1)})})
+watched-or({watched-and({w-literal(aux26,1),w-literal(robot_moves_00002_00001,1)}),watched-and({w-literal(aux26,0),w-literal(robot_moves_00002_00001,0)})})
+watched-or({watched-and({w-literal(robot_moves_00002_00002,0),w-literal(aux7,0)}),watched-and({w-literal(aux7,1),w-literal(robot_moves_00002_00002,1)})})
+watched-or({watched-and({w-literal(robot_moves_00002_00003,0),w-literal(aux21,0)}),watched-and({w-literal(aux21,1),w-literal(robot_moves_00002_00003,1)})})
+watched-or({watched-and({w-literal(aux6,1),w-literal(robot_moves_00002_00004,1)}),watched-and({w-literal(robot_moves_00002_00004,0),w-literal(aux6,0)})})
+watched-or({watched-and({w-literal(aux23,1),w-literal(robot_moves_00002_00005,1)}),watched-and({w-literal(aux23,0),w-literal(robot_moves_00002_00005,0)})})
+watched-or({watched-and({w-literal(aux13,1),w-literal(robot_moves_00002_00006,1)}),watched-and({w-literal(robot_moves_00002_00006,0),w-literal(aux13,0)})})
+watched-or({watched-and({w-literal(aux10,1),w-literal(robot_moves_00002_00007,1)}),watched-and({w-literal(robot_moves_00002_00007,0),w-literal(aux10,0)})})
+watched-or({watched-and({w-literal(aux11,1),w-literal(robot_moves_00002_00008,1)}),watched-and({w-literal(robot_moves_00002_00008,0),w-literal(aux11,0)})})
+watched-or({watched-and({w-literal(aux16,1),w-literal(robot_moves_00002_00009,1)}),watched-and({w-literal(robot_moves_00002_00009,0),w-literal(aux16,0)})})
+watched-or({watched-and({w-literal(aux14,1),w-literal(robot_moves_00002_00010,1)}),watched-and({w-literal(robot_moves_00002_00010,0),w-literal(aux14,0)})})
+watched-or({watched-and({w-literal(aux8,1),w-literal(robot_moves_00002_00011,1)}),watched-and({w-literal(robot_moves_00002_00011,0),w-literal(aux8,0)})})
+watched-or({watched-and({w-literal(aux33,18),w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(aux40,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00001_00006_00001,1),w-literal(path_00001_00006_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux42,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(aux30,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00007_00001,1),w-literal(path_00002_00007_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,7)}),watched-and({w-literal(aux29,18),w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux50,18),w-literal(path_00001_00008_00001,1),w-literal(path_00001_00008_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,8)}),watched-and({w-literal(aux42,18),w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00001_00008_00001,1),w-literal(path_00001_00008_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00005_00001,1),w-literal(path_00001_00005_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00008_00001,1),w-literal(path_00001_00008_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(aux40,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,9)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(aux50,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux38,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux32,18),w-literal(path_00001_00005_00001,1),w-literal(path_00001_00005_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux39,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,10),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux36,18),w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,11),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00007_00001,1),w-literal(path_00001_00007_00002,5),w-literal(aux50,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,7)}),watched-and({w-literal(aux33,18),w-literal(path_00002_00004_00001,1),w-literal(path_00002_00004_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(path_00001_00008_00001,1),w-literal(path_00001_00008_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(aux40,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(aux38,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux42,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux33,18),w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,9)}),watched-and({w-literal(aux48,18),w-literal(path_00002_00005_00001,1),w-literal(path_00002_00005_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,10)}),watched-and({w-literal(aux29,18),w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00006_00001,1),w-literal(path_00002_00006_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,6)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00007_00001,1),w-literal(path_00002_00007_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,7)}),watched-and({w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux38,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux33,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00008_00001,1),w-literal(path_00001_00008_00002,5),w-literal(aux30,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux39,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,10),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00005_00001,1),w-literal(path_00002_00005_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,5)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux47,18),w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,10),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00006_00001,1),w-literal(path_00002_00006_00002,5),w-literal(aux33,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00004_00001,1),w-literal(path_00002_00004_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,4)}),watched-and({w-literal(aux30,18),w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(aux30,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(aux49,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00009_00001,1),w-literal(path_00002_00009_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00006_00001,1),w-literal(path_00002_00006_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00007_00001,1),w-literal(path_00001_00007_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,7)}),watched-and({w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(aux38,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,10)}),watched-and({w-literal(aux50,18),w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,9)}),watched-and({w-literal(path_00002_00006_00001,1),w-literal(path_00002_00006_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00001_00006_00001,1),w-literal(path_00001_00006_00002,5),w-literal(aux37,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(aux49,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux38,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,10)}),watched-and({w-literal(aux32,18),w-literal(path_00001_00004_00001,1),w-literal(path_00001_00004_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,4)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux33,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(aux40,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,9)}),watched-and({w-literal(aux47,18),w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,10),w-literal(interval_00001_00003,12)}),watched-and({w-literal(path_00001_00007_00001,1),w-literal(path_00001_00007_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,7)}),watched-and({w-literal(aux37,18),w-literal(path_00001_00007_00001,1),w-literal(path_00001_00007_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,7)}),watched-and({w-literal(aux32,18),w-literal(path_00001_00009_00001,1),w-literal(path_00001_00009_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,9)}),watched-and({w-literal(aux42,18),w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,8),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00012_00001,1),w-literal(path_00001_00012_00002,5),w-literal(aux30,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,7),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux48,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,4),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00010_00001,1),w-literal(path_00002_00010_00002,5),w-literal(aux49,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,10)}),watched-and({w-literal(aux33,18),w-literal(path_00002_00011_00001,1),w-literal(path_00002_00011_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00007_00001,1),w-literal(path_00002_00007_00002,5),w-literal(aux46,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,2),w-literal(interval_00001_00003,7)}),watched-and({w-literal(aux29,18),w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,9),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux33,18),w-literal(path_00002_00005_00001,1),w-literal(path_00002_00005_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,5)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux43,18),w-literal(path_00002_00012_00001,1),w-literal(path_00002_00012_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,11),w-literal(interval_00001_00003,12)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00008_00001,1),w-literal(path_00002_00008_00002,5),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,8)}),watched-and({w-literal(path_00001_00006_00001,1),w-literal(path_00001_00006_00002,5),w-literal(aux45,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,6)}),watched-and({w-literal(path_00002_00007_00001,1),w-literal(path_00002_00007_00002,5),w-literal(aux33,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,7)}),watched-and({w-literal(path_00001_00010_00001,1),w-literal(path_00001_00010_00002,5),w-literal(aux50,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,10)}),watched-and({w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(aux32,18),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,3),w-literal(interval_00001_00003,11)}),watched-and({w-literal(aux50,18),w-literal(path_00001_00011_00001,1),w-literal(path_00001_00011_00002,5),w-literal(interval_00001_00001,1),w-literal(interval_00001_00002,6),w-literal(interval_00001_00003,11)}),watched-and({w-literal(path_00002_00007_00001,1),w-literal(path_00002_00007_00002,5),w-literal(aux44,18),w-literal(interval_00001_00001,2),w-literal(interval_00001_00002,5),w-literal(interval_00001_00003,7)})})
+watched-or({watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,12),w-literal(aux42,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(aux48,18),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,9),w-literal(aux50,18),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,10),w-literal(interval_00002_00003,12),w-literal(aux39,18)}),watched-and({w-literal(aux29,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,9),w-literal(aux33,18),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(aux47,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,10),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,8),w-literal(aux50,18),w-literal(path_00001_00008_00001,2),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,9),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5),w-literal(aux44,18)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,9),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux49,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,11),w-literal(aux42,18),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,5),w-literal(aux33,18),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux38,18)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,12),w-literal(aux44,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,4),w-literal(aux33,18),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,5)}),watched-and({w-literal(path_00002_00007_00001,2),w-literal(path_00002_00007_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,7),w-literal(aux48,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux48,18)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,5),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,5),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,6),w-literal(aux32,18)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(aux44,18)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,8),w-literal(path_00001_00008_00001,2),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux46,18)}),watched-and({w-literal(aux35,18),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(path_00002_00007_00001,2),w-literal(path_00002_00007_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,7),w-literal(aux46,18)}),watched-and({w-literal(aux47,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,10),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,5),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,6),w-literal(aux45,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,5),w-literal(path_00002_00005_00001,2),w-literal(path_00002_00005_00002,5),w-literal(aux46,18)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5),w-literal(aux50,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,8),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5),w-literal(aux44,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5),w-literal(aux50,18)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,12),w-literal(aux49,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,9),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5),w-literal(aux38,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,9),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5),w-literal(aux48,18)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,10),w-literal(aux33,18)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,12),w-literal(aux38,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,9),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5),w-literal(aux46,18)}),watched-and({w-literal(path_00001_00006_00001,2),w-literal(path_00001_00006_00002,5),w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,12),w-literal(aux48,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,9),w-literal(aux32,18),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5),w-literal(aux32,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5),w-literal(aux32,18)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,10),w-literal(aux42,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,11),w-literal(aux33,18),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5),w-literal(aux32,18)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,12),w-literal(aux46,18)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,6),w-literal(aux48,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5),w-literal(aux30,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,5),w-literal(aux32,18),w-literal(path_00001_00005_00001,2),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5),w-literal(aux30,18)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,6),w-literal(aux46,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5),w-literal(aux45,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,4),w-literal(aux32,18),w-literal(path_00001_00004_00001,2),w-literal(path_00001_00004_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5),w-literal(aux30,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5),w-literal(aux45,18)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,12)}),watched-and({w-literal(aux35,18),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,8),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5)}),watched-and({w-literal(aux43,18),w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,11),w-literal(interval_00002_00003,12)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5),w-literal(aux45,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,8),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5),w-literal(aux38,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5),w-literal(aux40,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5),w-literal(aux40,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,8),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5),w-literal(aux48,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,10),w-literal(path_00001_00010_00001,2),w-literal(path_00001_00010_00002,5),w-literal(aux40,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,8),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5),w-literal(aux46,18)}),watched-and({w-literal(aux29,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,7),w-literal(path_00001_00007_00001,2),w-literal(path_00001_00007_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,11),w-literal(interval_00002_00003,12),w-literal(aux36,18),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,10),w-literal(aux44,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,7),w-literal(path_00001_00007_00001,2),w-literal(path_00001_00007_00002,5),w-literal(aux50,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,9),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5),w-literal(aux45,18)}),watched-and({w-literal(path_00002_00007_00001,2),w-literal(path_00002_00007_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,7),w-literal(aux33,18)}),watched-and({w-literal(aux29,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,4),w-literal(path_00002_00004_00001,2),w-literal(path_00002_00004_00002,5),w-literal(aux46,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,9),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5),w-literal(aux40,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,8),w-literal(aux33,18),w-literal(path_00002_00008_00001,2),w-literal(path_00002_00008_00002,5)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,12),w-literal(path_00001_00012_00001,2),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,9),w-literal(interval_00002_00003,10),w-literal(aux49,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,8),w-literal(interval_00002_00003,9),w-literal(aux42,18),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,8),w-literal(path_00001_00008_00001,2),w-literal(path_00001_00008_00002,5),w-literal(aux32,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,7),w-literal(path_00001_00007_00001,2),w-literal(path_00001_00007_00002,5),w-literal(aux32,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,11),w-literal(aux50,18),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,10),w-literal(aux38,18)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,10)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,8),w-literal(path_00001_00008_00001,2),w-literal(path_00001_00008_00002,5),w-literal(aux30,18)}),watched-and({w-literal(aux35,18),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,9),w-literal(path_00002_00009_00001,2),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,8),w-literal(path_00001_00008_00001,2),w-literal(path_00001_00008_00002,5),w-literal(aux45,18)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,10),w-literal(aux48,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,7),w-literal(path_00001_00007_00001,2),w-literal(path_00001_00007_00002,5),w-literal(aux45,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,10),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux39,18)}),watched-and({w-literal(path_00002_00010_00001,2),w-literal(path_00002_00010_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,2),w-literal(interval_00002_00003,10),w-literal(aux46,18)}),watched-and({w-literal(aux37,18),w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,4),w-literal(interval_00002_00003,11),w-literal(path_00001_00011_00001,2),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00002_00007_00001,2),w-literal(path_00002_00007_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,7),w-literal(aux44,18)}),watched-and({w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,5),w-literal(interval_00002_00003,11),w-literal(path_00002_00011_00001,2),w-literal(path_00002_00011_00002,5),w-literal(aux44,18)}),watched-and({w-literal(path_00002_00012_00001,2),w-literal(path_00002_00012_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,12),w-literal(aux33,18)}),watched-and({w-literal(interval_00002_00001,1),w-literal(interval_00002_00002,7),w-literal(interval_00002_00003,9),w-literal(aux30,18),w-literal(path_00001_00009_00001,2),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00006_00001,2),w-literal(path_00002_00006_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,3),w-literal(interval_00002_00003,6),w-literal(aux33,18)}),watched-and({w-literal(aux35,18),w-literal(path_00002_00007_00001,2),w-literal(path_00002_00007_00002,5),w-literal(interval_00002_00001,2),w-literal(interval_00002_00002,6),w-literal(interval_00002_00003,7)})})
+watched-or({watched-and({w-literal(path_00001_00007_00001,3),w-literal(path_00001_00007_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,7),w-literal(aux45,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5),w-literal(aux32,13)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,10),w-literal(aux48,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,10)}),watched-and({w-literal(aux36,13),w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,11),w-literal(interval_00003_00003,12)}),watched-and({w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,9),w-literal(aux44,13)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,10),w-literal(interval_00003_00003,12),w-literal(aux39,13)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,12)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,10),w-literal(aux46,13)}),watched-and({w-literal(aux33,13),w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,4)}),watched-and({w-literal(path_00001_00007_00001,3),w-literal(path_00001_00007_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,7),w-literal(aux41,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,5),w-literal(aux32,13),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5),w-literal(aux30,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,4),w-literal(aux32,13),w-literal(path_00001_00004_00001,3),w-literal(path_00001_00004_00002,5)}),watched-and({w-literal(path_00002_00007_00001,3),w-literal(path_00002_00007_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,7),w-literal(aux44,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5),w-literal(aux45,13)}),watched-and({w-literal(aux37,13),w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,12)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5),w-literal(aux41,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5),w-literal(aux40,13)}),watched-and({w-literal(aux33,13),w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,9)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,12),w-literal(aux44,13)}),watched-and({w-literal(aux33,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,5),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(aux29,13),w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,10)}),watched-and({w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,9),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6),w-literal(aux44,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00007_00001,3),w-literal(path_00002_00007_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,7)}),watched-and({w-literal(path_00002_00007_00001,3),w-literal(path_00002_00007_00002,5),w-literal(aux33,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,7)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,10)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(aux33,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,12)}),watched-and({w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(aux37,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,9),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,5),w-literal(aux33,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,6)}),watched-and({w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,9),w-literal(aux38,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,9),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5),w-literal(aux45,13)}),watched-and({w-literal(aux37,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(aux37,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,10),w-literal(interval_00003_00003,11),w-literal(aux39,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,9),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5),w-literal(aux41,13)}),watched-and({w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,9),w-literal(aux48,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,9),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5),w-literal(aux40,13)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,12),w-literal(aux49,13)}),watched-and({w-literal(aux47,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,10),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,9),w-literal(aux46,13)}),watched-and({w-literal(aux37,13),w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,10)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,12),w-literal(aux38,13)}),watched-and({w-literal(path_00002_00007_00001,3),w-literal(path_00002_00007_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,7),w-literal(aux48,13)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,6),w-literal(aux32,13)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,11),w-literal(aux44,13)}),watched-and({w-literal(path_00002_00007_00001,3),w-literal(path_00002_00007_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,7),w-literal(aux46,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5),w-literal(aux32,13)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,12),w-literal(aux48,13)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,6),w-literal(aux45,13)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,12),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6),w-literal(aux48,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5),w-literal(aux30,13)}),watched-and({w-literal(aux47,13),w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,10),w-literal(interval_00003_00003,12)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5),w-literal(aux45,13)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,6),w-literal(aux41,13)}),watched-and({w-literal(path_00002_00006_00001,3),w-literal(path_00002_00006_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,6),w-literal(aux46,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,8),w-literal(path_00001_00008_00001,3),w-literal(path_00001_00008_00002,5),w-literal(aux41,13)}),watched-and({w-literal(aux37,13),w-literal(path_00001_00007_00001,3),w-literal(path_00001_00007_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,7)}),watched-and({w-literal(aux42,13),w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,11)}),watched-and({w-literal(path_00001_00007_00001,3),w-literal(path_00001_00007_00002,5),w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,7)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,12),w-literal(aux32,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,9),w-literal(aux30,13),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00004_00001,3),w-literal(path_00002_00004_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,4),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(aux42,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,10)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,12),w-literal(aux30,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,11)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,11),w-literal(aux49,13)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,12),w-literal(aux45,13)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,12),w-literal(aux40,13)}),watched-and({w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,5),w-literal(aux48,13),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,11),w-literal(aux38,13)}),watched-and({w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,12),w-literal(aux41,13)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,4),w-literal(path_00001_00004_00001,3),w-literal(path_00001_00004_00002,5),w-literal(aux41,13)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,11),w-literal(aux48,13)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,10),w-literal(aux32,13)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,10),w-literal(aux30,13)}),watched-and({w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,11),w-literal(aux46,13)}),watched-and({w-literal(aux33,13),w-literal(path_00002_00011_00001,3),w-literal(path_00002_00011_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,11)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,12)}),watched-and({w-literal(aux43,13),w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,11),w-literal(interval_00003_00003,12)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,10),w-literal(aux45,13)}),watched-and({w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,8),w-literal(aux44,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,8)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,10),w-literal(aux40,13)}),watched-and({w-literal(path_00001_00010_00001,3),w-literal(path_00001_00010_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,10),w-literal(aux41,13)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,5),w-literal(interval_00003_00003,10),w-literal(aux44,13)}),watched-and({w-literal(aux29,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(aux33,13),w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,8)}),watched-and({w-literal(path_00001_00006_00001,3),w-literal(path_00001_00006_00002,5),w-literal(aux37,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,6)}),watched-and({w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,5),w-literal(path_00002_00005_00001,3),w-literal(path_00002_00005_00002,5),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(aux33,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,10)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,5),w-literal(aux41,13),w-literal(path_00001_00005_00001,3),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(path_00002_00012_00001,3),w-literal(path_00002_00012_00002,5),w-literal(aux42,13),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,12)}),watched-and({w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,8),w-literal(aux38,13)}),watched-and({w-literal(aux29,13),w-literal(path_00001_00012_00001,3),w-literal(path_00001_00012_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,12)}),watched-and({w-literal(aux50,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(aux42,13),w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,8),w-literal(interval_00003_00003,9)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,9),w-literal(interval_00003_00003,10),w-literal(aux49,13)}),watched-and({w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,8),w-literal(aux48,13)}),watched-and({w-literal(path_00001_00007_00001,3),w-literal(path_00001_00007_00002,5),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,7),w-literal(aux32,13)}),watched-and({w-literal(path_00002_00010_00001,3),w-literal(path_00002_00010_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,7),w-literal(interval_00003_00003,10),w-literal(aux38,13)}),watched-and({w-literal(path_00002_00008_00001,3),w-literal(path_00002_00008_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,2),w-literal(interval_00003_00003,8),w-literal(aux46,13)}),watched-and({w-literal(aux37,13),w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,4),w-literal(interval_00003_00003,11),w-literal(path_00001_00011_00001,3),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00009_00001,3),w-literal(path_00002_00009_00002,5),w-literal(interval_00003_00001,2),w-literal(interval_00003_00002,6),w-literal(interval_00003_00003,9)}),watched-and({w-literal(interval_00003_00001,1),w-literal(interval_00003_00002,3),w-literal(interval_00003_00003,9),w-literal(aux32,13),w-literal(path_00001_00009_00001,3),w-literal(path_00001_00009_00002,5)})})
+watched-or({watched-and({w-literal(path_00002_00006_00001,4),w-literal(path_00002_00006_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(aux44,13)}),watched-and({w-literal(path_00001_00006_00001,4),w-literal(path_00001_00006_00002,5),w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,10)}),watched-and({w-literal(aux35,13),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,8),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,10),w-literal(aux38,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,11),w-literal(aux33,13),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux50,13)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,10),w-literal(aux48,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,5),w-literal(aux41,13),w-literal(path_00001_00005_00001,4),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,8),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5),w-literal(aux38,13)}),watched-and({w-literal(aux29,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,7),w-literal(path_00001_00007_00001,4),w-literal(path_00001_00007_00002,5)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,10),w-literal(aux46,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,8),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5),w-literal(aux48,13)}),watched-and({w-literal(path_00002_00007_00001,4),w-literal(path_00002_00007_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,7),w-literal(aux44,13)}),watched-and({w-literal(aux29,13),w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,10)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,8),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5),w-literal(aux46,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00007_00001,4),w-literal(path_00002_00007_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,7)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,12),w-literal(aux49,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,12),w-literal(aux38,13)}),watched-and({w-literal(aux36,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,11),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,9),w-literal(aux32,13),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux32,13)}),watched-and({w-literal(aux29,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5),w-literal(aux32,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,12),w-literal(aux48,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux30,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5),w-literal(aux30,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,12),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00006_00001,4),w-literal(path_00002_00006_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,6),w-literal(aux48,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux45,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(aux32,13),w-literal(path_00001_00005_00001,4),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5),w-literal(aux45,13)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux40,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5),w-literal(aux40,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(aux32,13),w-literal(path_00001_00004_00001,4),w-literal(path_00001_00004_00002,5)}),watched-and({w-literal(path_00002_00006_00001,4),w-literal(path_00002_00006_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,6),w-literal(aux46,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,4),w-literal(path_00002_00004_00001,4),w-literal(path_00002_00004_00002,5),w-literal(aux46,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5),w-literal(aux41,13)}),watched-and({w-literal(aux37,13),w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,10)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,8),w-literal(aux33,13),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,9),w-literal(aux42,13),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(aux35,13),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,9),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(path_00002_00007_00001,4),w-literal(path_00002_00007_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,7),w-literal(aux48,13)}),watched-and({w-literal(path_00001_00006_00001,4),w-literal(path_00001_00006_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6),w-literal(aux32,13)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00002_00007_00001,4),w-literal(path_00002_00007_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,7),w-literal(aux46,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,10),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux39,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,7),w-literal(path_00001_00007_00001,4),w-literal(path_00001_00007_00002,5),w-literal(aux50,13)}),watched-and({w-literal(path_00001_00006_00001,4),w-literal(path_00001_00006_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,6),w-literal(aux45,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,9),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5),w-literal(aux45,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,9),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5),w-literal(aux40,13)}),watched-and({w-literal(path_00001_00006_00001,4),w-literal(path_00001_00006_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,6),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux44,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,9),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5),w-literal(aux41,13)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,10),w-literal(aux50,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,11),w-literal(aux50,13),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,8),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5),w-literal(aux32,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(aux48,13),w-literal(path_00002_00005_00001,4),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,10),w-literal(aux33,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,7),w-literal(path_00001_00007_00001,4),w-literal(path_00001_00007_00002,5),w-literal(aux32,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,8),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5),w-literal(aux30,13)}),watched-and({w-literal(aux47,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,10),w-literal(interval_00004_00003,12),w-literal(path_00001_00012_00001,4),w-literal(path_00001_00012_00002,5)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,8),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5),w-literal(aux45,13)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,9),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,10),w-literal(aux42,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,7),w-literal(path_00001_00007_00001,4),w-literal(path_00001_00007_00002,5),w-literal(aux45,13)}),watched-and({w-literal(aux35,13),w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,12)}),watched-and({w-literal(aux43,13),w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,11),w-literal(interval_00004_00003,12)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,8),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,9),w-literal(aux33,13),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux49,13)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,10),w-literal(aux32,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,9),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5),w-literal(aux44,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,7),w-literal(path_00001_00007_00001,4),w-literal(path_00001_00007_00002,5),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,9),w-literal(aux30,13),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,11),w-literal(aux42,13),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,5),w-literal(path_00001_00005_00001,4),w-literal(path_00001_00005_00002,5)}),watched-and({w-literal(aux37,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,8),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,10),w-literal(aux30,13)}),watched-and({w-literal(aux35,13),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux38,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,5),w-literal(aux33,13),w-literal(path_00002_00005_00001,4),w-literal(path_00002_00005_00002,5)}),watched-and({w-literal(aux47,13),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,10),w-literal(interval_00004_00003,11),w-literal(path_00001_00011_00001,4),w-literal(path_00001_00011_00002,5)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,10),w-literal(aux45,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,12),w-literal(aux33,13)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,10),w-literal(aux40,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,4),w-literal(aux33,13),w-literal(path_00002_00004_00001,4),w-literal(path_00002_00004_00002,5)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux48,13)}),watched-and({w-literal(path_00002_00006_00001,4),w-literal(path_00002_00006_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,6),w-literal(aux33,13)}),watched-and({w-literal(path_00001_00010_00001,4),w-literal(path_00001_00010_00002,5),w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,10),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,11),w-literal(path_00002_00011_00001,4),w-literal(path_00002_00011_00002,5),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,8),w-literal(interval_00004_00003,12),w-literal(aux42,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,9),w-literal(aux50,13),w-literal(path_00001_00009_00001,4),w-literal(path_00001_00009_00002,5)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,10),w-literal(aux44,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,4),w-literal(path_00001_00004_00001,4),w-literal(path_00001_00004_00002,5),w-literal(aux41,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,5),w-literal(path_00002_00005_00001,4),w-literal(path_00002_00005_00002,5),w-literal(aux46,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,8),w-literal(path_00002_00008_00001,4),w-literal(path_00002_00008_00002,5),w-literal(aux44,13)}),watched-and({w-literal(interval_00004_00001,1),w-literal(interval_00004_00002,6),w-literal(interval_00004_00003,8),w-literal(aux50,13),w-literal(path_00001_00008_00001,4),w-literal(path_00001_00008_00002,5)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,10),w-literal(interval_00004_00003,12),w-literal(aux39,13)}),watched-and({w-literal(path_00002_00007_00001,4),w-literal(path_00002_00007_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,3),w-literal(interval_00004_00003,7),w-literal(aux33,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,7),w-literal(interval_00004_00003,9),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5),w-literal(aux38,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,4),w-literal(interval_00004_00003,9),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5),w-literal(aux48,13)}),watched-and({w-literal(path_00002_00012_00001,4),w-literal(path_00002_00012_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,5),w-literal(interval_00004_00003,12),w-literal(aux44,13)}),watched-and({w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,2),w-literal(interval_00004_00003,9),w-literal(path_00002_00009_00001,4),w-literal(path_00002_00009_00002,5),w-literal(aux46,13)}),watched-and({w-literal(path_00002_00010_00001,4),w-literal(path_00002_00010_00002,5),w-literal(interval_00004_00001,2),w-literal(interval_00004_00002,9),w-literal(interval_00004_00003,10),w-literal(aux49,13)})})
+watched-or({watchelement_one([inventory_00001_00002, inventory_00002_00002], interval_00001_00001, 1),ineq(2, interval_00001_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00003, inventory_00002_00003], interval_00001_00001, 1),ineq(3, interval_00001_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00004, inventory_00002_00004], interval_00001_00001, 1),ineq(4, interval_00001_00002, -1),ineq(interval_00001_00003, 4, 0)})
+watched-or({watchelement_one([inventory_00001_00005, inventory_00002_00005], interval_00001_00001, 1),ineq(5, interval_00001_00002, -1),ineq(interval_00001_00003, 5, 0)})
+watched-or({watchelement_one([inventory_00001_00006, inventory_00002_00006], interval_00001_00001, 1),ineq(6, interval_00001_00002, -1),ineq(interval_00001_00003, 6, 0)})
+watched-or({watchelement_one([inventory_00001_00007, inventory_00002_00007], interval_00001_00001, 1),ineq(7, interval_00001_00002, -1),ineq(interval_00001_00003, 7, 0)})
+watched-or({watchelement_one([inventory_00001_00008, inventory_00002_00008], interval_00001_00001, 1),ineq(8, interval_00001_00002, -1),ineq(interval_00001_00003, 8, 0)})
+watched-or({watchelement_one([inventory_00001_00009, inventory_00002_00009], interval_00001_00001, 1),ineq(9, interval_00001_00002, -1),ineq(interval_00001_00003, 9, 0)})
+watched-or({watchelement_one([inventory_00001_00010, inventory_00002_00010], interval_00001_00001, 1),ineq(10, interval_00001_00002, -1),ineq(interval_00001_00003, 10, 0)})
+watched-or({watchelement_one([inventory_00001_00011, inventory_00002_00011], interval_00001_00001, 1),ineq(interval_00001_00003, 11, 0)})
+watchelement_one([inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, inventory_00001_00007, inventory_00001_00008, inventory_00001_00009, inventory_00001_00010, inventory_00001_00011, inventory_00001_00012, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, inventory_00002_00007, inventory_00002_00008, inventory_00002_00009, inventory_00002_00010, inventory_00002_00011, inventory_00002_00012], aux143, 0)
+watchelement_one([robot_task_occurance_00001_00001, robot_task_occurance_00002_00001], interval_00001_00001, 1)
+watched-or({ineq(2, interval_00002_00002, -1),watchelement_one([inventory_00001_00002, inventory_00002_00002], interval_00002_00001, 2)})
+watched-or({ineq(3, interval_00002_00002, -1),watchelement_one([inventory_00001_00003, inventory_00002_00003], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 4, 0),ineq(4, interval_00002_00002, -1),watchelement_one([inventory_00001_00004, inventory_00002_00004], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 5, 0),ineq(5, interval_00002_00002, -1),watchelement_one([inventory_00001_00005, inventory_00002_00005], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 6, 0),ineq(6, interval_00002_00002, -1),watchelement_one([inventory_00001_00006, inventory_00002_00006], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 7, 0),ineq(7, interval_00002_00002, -1),watchelement_one([inventory_00001_00007, inventory_00002_00007], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 8, 0),ineq(8, interval_00002_00002, -1),watchelement_one([inventory_00001_00008, inventory_00002_00008], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 9, 0),ineq(9, interval_00002_00002, -1),watchelement_one([inventory_00001_00009, inventory_00002_00009], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 10, 0),ineq(10, interval_00002_00002, -1),watchelement_one([inventory_00001_00010, inventory_00002_00010], interval_00002_00001, 2)})
+watched-or({ineq(interval_00002_00003, 11, 0),watchelement_one([inventory_00001_00011, inventory_00002_00011], interval_00002_00001, 2)})
+watchelement_one([inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, inventory_00001_00007, inventory_00001_00008, inventory_00001_00009, inventory_00001_00010, inventory_00001_00011, inventory_00001_00012, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, inventory_00002_00007, inventory_00002_00008, inventory_00002_00009, inventory_00002_00010, inventory_00002_00011, inventory_00002_00012], aux144, 0)
+watchelement_one([robot_task_occurance_00001_00002, robot_task_occurance_00002_00002], interval_00002_00001, 1)
+watched-or({watchelement_one([inventory_00001_00001, inventory_00002_00001], interval_00003_00001, 3),ineq(1, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00002, inventory_00002_00002], interval_00003_00001, 3),ineq(2, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00003, inventory_00002_00003], interval_00003_00001, 3),ineq(3, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00004, inventory_00002_00004], interval_00003_00001, 3),ineq(interval_00003_00003, 4, 0),ineq(4, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00005, inventory_00002_00005], interval_00003_00001, 3),ineq(interval_00003_00003, 5, 0),ineq(5, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00006, inventory_00002_00006], interval_00003_00001, 3),ineq(interval_00003_00003, 6, 0),ineq(6, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00007, inventory_00002_00007], interval_00003_00001, 3),ineq(interval_00003_00003, 7, 0),ineq(7, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00008, inventory_00002_00008], interval_00003_00001, 3),ineq(interval_00003_00003, 8, 0),ineq(8, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00009, inventory_00002_00009], interval_00003_00001, 3),ineq(interval_00003_00003, 9, 0),ineq(9, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00010, inventory_00002_00010], interval_00003_00001, 3),ineq(interval_00003_00003, 10, 0),ineq(10, interval_00003_00002, -1)})
+watched-or({watchelement_one([inventory_00001_00011, inventory_00002_00011], interval_00003_00001, 3),ineq(interval_00003_00003, 11, 0)})
+watchelement_one([inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, inventory_00001_00007, inventory_00001_00008, inventory_00001_00009, inventory_00001_00010, inventory_00001_00011, inventory_00001_00012, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, inventory_00002_00007, inventory_00002_00008, inventory_00002_00009, inventory_00002_00010, inventory_00002_00011, inventory_00002_00012], aux145, 0)
+watchelement_one([robot_task_occurance_00001_00003, robot_task_occurance_00002_00003], interval_00003_00001, 1)
+watched-or({ineq(1, interval_00004_00002, -1),watchelement_one([inventory_00001_00001, inventory_00002_00001], interval_00004_00001, 4)})
+watched-or({ineq(2, interval_00004_00002, -1),watchelement_one([inventory_00001_00002, inventory_00002_00002], interval_00004_00001, 4)})
+watched-or({ineq(3, interval_00004_00002, -1),watchelement_one([inventory_00001_00003, inventory_00002_00003], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 4, 0),ineq(4, interval_00004_00002, -1),watchelement_one([inventory_00001_00004, inventory_00002_00004], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 5, 0),ineq(5, interval_00004_00002, -1),watchelement_one([inventory_00001_00005, inventory_00002_00005], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 6, 0),ineq(6, interval_00004_00002, -1),watchelement_one([inventory_00001_00006, inventory_00002_00006], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 7, 0),ineq(7, interval_00004_00002, -1),watchelement_one([inventory_00001_00007, inventory_00002_00007], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 8, 0),ineq(8, interval_00004_00002, -1),watchelement_one([inventory_00001_00008, inventory_00002_00008], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 9, 0),ineq(9, interval_00004_00002, -1),watchelement_one([inventory_00001_00009, inventory_00002_00009], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 10, 0),ineq(10, interval_00004_00002, -1),watchelement_one([inventory_00001_00010, inventory_00002_00010], interval_00004_00001, 4)})
+watched-or({ineq(interval_00004_00003, 11, 0),watchelement_one([inventory_00001_00011, inventory_00002_00011], interval_00004_00001, 4)})
+watchelement_one([inventory_00001_00004, inventory_00001_00005, inventory_00001_00006, inventory_00001_00007, inventory_00001_00008, inventory_00001_00009, inventory_00001_00010, inventory_00001_00011, inventory_00001_00012, 0, inventory_00002_00001, inventory_00002_00002, inventory_00002_00003, inventory_00002_00004, inventory_00002_00005, inventory_00002_00006, inventory_00002_00007, inventory_00002_00008, inventory_00002_00009, inventory_00002_00010, inventory_00002_00011, inventory_00002_00012], aux146, 0)
+watchelement_one([robot_task_occurance_00001_00004, robot_task_occurance_00002_00004], interval_00004_00001, 1)
+watched-or({diseq(interval_00001_00001,interval_00002_00001),ineq(interval_00001_00003, interval_00002_00002, -1),ineq(interval_00002_00003, interval_00001_00002, -1)})
+watched-or({diseq(interval_00001_00001,interval_00003_00001),ineq(interval_00003_00003, interval_00001_00002, -1),ineq(interval_00001_00003, interval_00003_00002, -1)})
+watched-or({diseq(interval_00004_00001,interval_00001_00001),ineq(interval_00001_00003, interval_00004_00002, -1),ineq(interval_00004_00003, interval_00001_00002, -1)})
+watched-or({ineq(interval_00002_00003, interval_00003_00002, -1),ineq(interval_00003_00003, interval_00002_00002, -1),diseq(interval_00002_00001,interval_00003_00001)})
+watched-or({diseq(interval_00004_00001,interval_00002_00001),ineq(interval_00002_00003, interval_00004_00002, -1),ineq(interval_00004_00003, interval_00002_00002, -1)})
+watched-or({ineq(interval_00004_00003, interval_00003_00002, -1),diseq(interval_00004_00001,interval_00003_00001),ineq(interval_00003_00003, interval_00004_00002, -1)})
+watched-or({diseq(path_00002_00001_00001,1),diseq(path_00002_00001_00002,2),diseq(path_00001_00001_00001,2),diseq(path_00001_00001_00002,1)})
+watched-or({diseq(path_00002_00001_00001,path_00001_00002_00001),diseq(path_00002_00001_00002,path_00001_00002_00002),diseq(path_00001_00001_00001,path_00002_00002_00001),diseq(path_00001_00001_00002,path_00002_00002_00002)})
+watched-or({diseq(path_00002_00002_00001,path_00001_00003_00001),diseq(path_00002_00002_00002,path_00001_00003_00002),diseq(path_00001_00002_00001,path_00002_00003_00001),diseq(path_00001_00002_00002,path_00002_00003_00002)})
+watched-or({diseq(path_00002_00004_00001,path_00001_00003_00001),diseq(path_00002_00004_00002,path_00001_00003_00002),diseq(path_00001_00004_00001,path_00002_00003_00001),diseq(path_00001_00004_00002,path_00002_00003_00002)})
+watched-or({diseq(path_00002_00004_00001,path_00001_00005_00001),diseq(path_00002_00004_00002,path_00001_00005_00002),diseq(path_00001_00004_00001,path_00002_00005_00001),diseq(path_00001_00004_00002,path_00002_00005_00002)})
+watched-or({diseq(path_00002_00005_00001,path_00001_00006_00001),diseq(path_00002_00005_00002,path_00001_00006_00002),diseq(path_00001_00005_00001,path_00002_00006_00001),diseq(path_00001_00005_00002,path_00002_00006_00002)})
+watched-or({diseq(path_00002_00006_00001,path_00001_00007_00001),diseq(path_00002_00006_00002,path_00001_00007_00002),diseq(path_00001_00006_00001,path_00002_00007_00001),diseq(path_00001_00006_00002,path_00002_00007_00002)})
+watched-or({diseq(path_00002_00007_00001,path_00001_00008_00001),diseq(path_00002_00007_00002,path_00001_00008_00002),diseq(path_00001_00007_00001,path_00002_00008_00001),diseq(path_00001_00007_00002,path_00002_00008_00002)})
+watched-or({diseq(path_00002_00009_00001,path_00001_00008_00001),diseq(path_00002_00009_00002,path_00001_00008_00002),diseq(path_00001_00009_00001,path_00002_00008_00001),diseq(path_00001_00009_00002,path_00002_00008_00002)})
+watched-or({diseq(path_00002_00009_00001,path_00001_00010_00001),diseq(path_00002_00009_00002,path_00001_00010_00002),diseq(path_00001_00009_00001,path_00002_00010_00001),diseq(path_00001_00009_00002,path_00002_00010_00002)})
+watched-or({diseq(path_00002_00010_00001,path_00001_00011_00001),diseq(path_00002_00010_00002,path_00001_00011_00002),diseq(path_00001_00010_00001,path_00002_00011_00001),diseq(path_00001_00010_00002,path_00002_00011_00002)})
+watched-or({diseq(path_00002_00012_00001,path_00001_00011_00001),diseq(path_00002_00012_00002,path_00001_00011_00002),diseq(path_00001_00012_00001,path_00002_00011_00001),diseq(path_00001_00012_00002,path_00002_00011_00002)})
+weightedsumleq([1,-1],[path_00001_00009_00001,path_00001_00010_00001],aux51)
+weightedsumgeq([1,-1],[path_00001_00009_00001,path_00001_00010_00001],aux51)
+weightedsumleq([1,-1],[path_00001_00009_00002,path_00001_00010_00002],aux53)
+weightedsumgeq([1,-1],[path_00001_00009_00002,path_00001_00010_00002],aux53)
+weightedsumleq([1,-1],[path_00002_00004_00001,path_00002_00005_00001],aux55)
+weightedsumgeq([1,-1],[path_00002_00004_00001,path_00002_00005_00001],aux55)
+weightedsumleq([1,-1],[path_00002_00004_00002,path_00002_00005_00002],aux57)
+weightedsumgeq([1,-1],[path_00002_00004_00002,path_00002_00005_00002],aux57)
+weightedsumleq([1,-1],[path_00002_00002_00001,path_00002_00003_00001],aux59)
+weightedsumgeq([1,-1],[path_00002_00002_00001,path_00002_00003_00001],aux59)
+weightedsumleq([1,-1],[path_00002_00002_00002,path_00002_00003_00002],aux61)
+weightedsumgeq([1,-1],[path_00002_00002_00002,path_00002_00003_00002],aux61)
+weightedsumleq([-1,1],[path_00002_00012_00001,path_00002_00011_00001],aux63)
+weightedsumgeq([-1,1],[path_00002_00012_00001,path_00002_00011_00001],aux63)
+weightedsumleq([-1,1],[path_00002_00012_00002,path_00002_00011_00002],aux65)
+weightedsumgeq([-1,1],[path_00002_00012_00002,path_00002_00011_00002],aux65)
+weightedsumleq([1,-1],[path_00001_00005_00001,path_00001_00006_00001],aux67)
+weightedsumgeq([1,-1],[path_00001_00005_00001,path_00001_00006_00001],aux67)
+weightedsumleq([1,-1],[path_00001_00005_00002,path_00001_00006_00002],aux69)
+weightedsumgeq([1,-1],[path_00001_00005_00002,path_00001_00006_00002],aux69)
+weightedsumleq([1,-1],[path_00002_00007_00001,path_00002_00008_00001],aux71)
+weightedsumgeq([1,-1],[path_00002_00007_00001,path_00002_00008_00001],aux71)
+weightedsumleq([1,-1],[path_00002_00007_00002,path_00002_00008_00002],aux73)
+weightedsumgeq([1,-1],[path_00002_00007_00002,path_00002_00008_00002],aux73)
+weightedsumleq([-1,1],[path_00002_00009_00001,path_00002_00008_00001],aux75)
+weightedsumgeq([-1,1],[path_00002_00009_00001,path_00002_00008_00001],aux75)
+weightedsumleq([-1,1],[path_00002_00009_00002,path_00002_00008_00002],aux77)
+weightedsumgeq([-1,1],[path_00002_00009_00002,path_00002_00008_00002],aux77)
+weightedsumleq([1,-1],[path_00001_00004_00001,path_00001_00005_00001],aux79)
+weightedsumgeq([1,-1],[path_00001_00004_00001,path_00001_00005_00001],aux79)
+weightedsumleq([1,-1],[path_00001_00004_00002,path_00001_00005_00002],aux81)
+weightedsumgeq([1,-1],[path_00001_00004_00002,path_00001_00005_00002],aux81)
+weightedsumleq([1,-1],[path_00002_00006_00001,path_00002_00007_00001],aux83)
+weightedsumgeq([1,-1],[path_00002_00006_00001,path_00002_00007_00001],aux83)
+weightedsumleq([1,-1],[path_00002_00006_00002,path_00002_00007_00002],aux85)
+weightedsumgeq([1,-1],[path_00002_00006_00002,path_00002_00007_00002],aux85)
+weightedsumleq([1,-1],[path_00002_00010_00001,path_00002_00011_00001],aux87)
+weightedsumgeq([1,-1],[path_00002_00010_00001,path_00002_00011_00001],aux87)
+weightedsumleq([1,-1],[path_00002_00010_00002,path_00002_00011_00002],aux89)
+weightedsumgeq([1,-1],[path_00002_00010_00002,path_00002_00011_00002],aux89)
+weightedsumleq([1,-1],[path_00001_00001_00001,path_00001_00002_00001],aux91)
+weightedsumgeq([1,-1],[path_00001_00001_00001,path_00001_00002_00001],aux91)
+weightedsumleq([1,-1],[path_00001_00001_00002,path_00001_00002_00002],aux93)
+weightedsumgeq([1,-1],[path_00001_00001_00002,path_00001_00002_00002],aux93)
+weightedsumleq([1,-1],[path_00002_00009_00001,path_00002_00010_00001],aux95)
+weightedsumgeq([1,-1],[path_00002_00009_00001,path_00002_00010_00001],aux95)
+weightedsumleq([1,-1],[path_00002_00009_00002,path_00002_00010_00002],aux97)
+weightedsumgeq([1,-1],[path_00002_00009_00002,path_00002_00010_00002],aux97)
+weightedsumleq([-1,1],[path_00001_00009_00001,path_00001_00008_00001],aux99)
+weightedsumgeq([-1,1],[path_00001_00009_00001,path_00001_00008_00001],aux99)
+weightedsumleq([-1,1],[path_00001_00009_00002,path_00001_00008_00002],aux101)
+weightedsumgeq([-1,1],[path_00001_00009_00002,path_00001_00008_00002],aux101)
+weightedsumleq([1,-1],[path_00001_00002_00001,path_00001_00003_00001],aux103)
+weightedsumgeq([1,-1],[path_00001_00002_00001,path_00001_00003_00001],aux103)
+weightedsumleq([1,-1],[path_00001_00002_00002,path_00001_00003_00002],aux105)
+weightedsumgeq([1,-1],[path_00001_00002_00002,path_00001_00003_00002],aux105)
+weightedsumleq([-1,1],[path_00001_00004_00001,path_00001_00003_00001],aux107)
+weightedsumgeq([-1,1],[path_00001_00004_00001,path_00001_00003_00001],aux107)
+weightedsumleq([-1,1],[path_00001_00004_00002,path_00001_00003_00002],aux109)
+weightedsumgeq([-1,1],[path_00001_00004_00002,path_00001_00003_00002],aux109)
+weightedsumleq([1,-1],[path_00001_00007_00001,path_00001_00008_00001],aux111)
+weightedsumgeq([1,-1],[path_00001_00007_00001,path_00001_00008_00001],aux111)
+weightedsumleq([1,-1],[path_00001_00007_00002,path_00001_00008_00002],aux113)
+weightedsumgeq([1,-1],[path_00001_00007_00002,path_00001_00008_00002],aux113)
+weightedsumleq([-1,1],[path_00002_00004_00001,path_00002_00003_00001],aux115)
+weightedsumgeq([-1,1],[path_00002_00004_00001,path_00002_00003_00001],aux115)
+weightedsumleq([-1,1],[path_00002_00004_00002,path_00002_00003_00002],aux117)
+weightedsumgeq([-1,1],[path_00002_00004_00002,path_00002_00003_00002],aux117)
+weightedsumleq([1,-1],[path_00001_00006_00001,path_00001_00007_00001],aux119)
+weightedsumgeq([1,-1],[path_00001_00006_00001,path_00001_00007_00001],aux119)
+weightedsumleq([1,-1],[path_00001_00006_00002,path_00001_00007_00002],aux121)
+weightedsumgeq([1,-1],[path_00001_00006_00002,path_00001_00007_00002],aux121)
+weightedsumleq([1,-1],[path_00002_00005_00001,path_00002_00006_00001],aux123)
+weightedsumgeq([1,-1],[path_00002_00005_00001,path_00002_00006_00001],aux123)
+weightedsumleq([1,-1],[path_00002_00005_00002,path_00002_00006_00002],aux125)
+weightedsumgeq([1,-1],[path_00002_00005_00002,path_00002_00006_00002],aux125)
+weightedsumleq([-1,1],[path_00001_00012_00001,path_00001_00011_00001],aux127)
+weightedsumgeq([-1,1],[path_00001_00012_00001,path_00001_00011_00001],aux127)
+weightedsumleq([-1,1],[path_00001_00012_00002,path_00001_00011_00002],aux129)
+weightedsumgeq([-1,1],[path_00001_00012_00002,path_00001_00011_00002],aux129)
+weightedsumleq([1,-1],[path_00001_00010_00001,path_00001_00011_00001],aux131)
+weightedsumgeq([1,-1],[path_00001_00010_00001,path_00001_00011_00001],aux131)
+weightedsumleq([1,-1],[path_00001_00010_00002,path_00001_00011_00002],aux133)
+weightedsumgeq([1,-1],[path_00001_00010_00002,path_00001_00011_00002],aux133)
+weightedsumleq([1,-1],[path_00002_00001_00001,path_00002_00002_00001],aux135)
+weightedsumgeq([1,-1],[path_00002_00001_00001,path_00002_00002_00001],aux135)
+weightedsumleq([1,-1],[path_00002_00001_00002,path_00002_00002_00002],aux137)
+weightedsumgeq([1,-1],[path_00002_00001_00002,path_00002_00002_00002],aux137)
+weightedsumleq([-1,1],[path_00002_00001_00001,2],aux139)
+weightedsumgeq([-1,1],[path_00002_00001_00001,2],aux139)
+weightedsumleq([-1,1],[path_00001_00001_00002,2],aux141)
+weightedsumgeq([-1,1],[path_00001_00001_00002,2],aux141)
+weightedsumleq([13,1,1],[interval_00001_00001,interval_00001_00003,-16],aux143)
+weightedsumgeq([13,1,1],[interval_00001_00001,interval_00001_00003,-16],aux143)
+weightedsumleq([1,13,1],[-16,interval_00002_00001,interval_00002_00003],aux144)
+weightedsumgeq([1,13,1],[-16,interval_00002_00001,interval_00002_00003],aux144)
+weightedsumleq([1,13,1],[-16,interval_00003_00001,interval_00003_00003],aux145)
+weightedsumgeq([1,13,1],[-16,interval_00003_00001,interval_00003_00003],aux145)
+weightedsumleq([13,1,1],[interval_00004_00001,interval_00004_00003,-16],aux146)
+weightedsumgeq([13,1,1],[interval_00004_00001,interval_00004_00003,-16],aux146)
+weightedsumleq([5,1,-5,-1],[path_00002_00001_00001,path_00002_00001_00002,path_00001_00001_00001,path_00001_00001_00002],aux147)
+weightedsumgeq([5,1,-5,-1],[path_00002_00001_00001,path_00002_00001_00002,path_00001_00001_00001,path_00001_00001_00002],aux147)
+weightedsumleq([5,1,-5,-1],[path_00002_00002_00001,path_00002_00002_00002,path_00001_00002_00001,path_00001_00002_00002],aux148)
+weightedsumgeq([5,1,-5,-1],[path_00002_00002_00001,path_00002_00002_00002,path_00001_00002_00001,path_00001_00002_00002],aux148)
+weightedsumleq([5,1,-5,-1],[path_00002_00003_00001,path_00002_00003_00002,path_00001_00003_00001,path_00001_00003_00002],aux149)
+weightedsumgeq([5,1,-5,-1],[path_00002_00003_00001,path_00002_00003_00002,path_00001_00003_00001,path_00001_00003_00002],aux149)
+weightedsumleq([5,1,-5,-1],[path_00002_00004_00001,path_00002_00004_00002,path_00001_00004_00001,path_00001_00004_00002],aux150)
+weightedsumgeq([5,1,-5,-1],[path_00002_00004_00001,path_00002_00004_00002,path_00001_00004_00001,path_00001_00004_00002],aux150)
+weightedsumleq([-5,-1,5,1],[path_00002_00005_00001,path_00002_00005_00002,path_00001_00005_00001,path_00001_00005_00002],aux151)
+weightedsumgeq([-5,-1,5,1],[path_00002_00005_00001,path_00002_00005_00002,path_00001_00005_00001,path_00001_00005_00002],aux151)
+weightedsumleq([5,1,-5,-1],[path_00002_00006_00001,path_00002_00006_00002,path_00001_00006_00001,path_00001_00006_00002],aux152)
+weightedsumgeq([5,1,-5,-1],[path_00002_00006_00001,path_00002_00006_00002,path_00001_00006_00001,path_00001_00006_00002],aux152)
+weightedsumleq([5,1,-5,-1],[path_00002_00007_00001,path_00002_00007_00002,path_00001_00007_00001,path_00001_00007_00002],aux153)
+weightedsumgeq([5,1,-5,-1],[path_00002_00007_00001,path_00002_00007_00002,path_00001_00007_00001,path_00001_00007_00002],aux153)
+weightedsumleq([5,1,-5,-1],[path_00002_00008_00001,path_00002_00008_00002,path_00001_00008_00001,path_00001_00008_00002],aux154)
+weightedsumgeq([5,1,-5,-1],[path_00002_00008_00001,path_00002_00008_00002,path_00001_00008_00001,path_00001_00008_00002],aux154)
+weightedsumleq([5,1,-5,-1],[path_00002_00009_00001,path_00002_00009_00002,path_00001_00009_00001,path_00001_00009_00002],aux155)
+weightedsumgeq([5,1,-5,-1],[path_00002_00009_00001,path_00002_00009_00002,path_00001_00009_00001,path_00001_00009_00002],aux155)
+weightedsumleq([-5,-1,5,1],[path_00002_00010_00001,path_00002_00010_00002,path_00001_00010_00001,path_00001_00010_00002],aux156)
+weightedsumgeq([-5,-1,5,1],[path_00002_00010_00001,path_00002_00010_00002,path_00001_00010_00001,path_00001_00010_00002],aux156)
+weightedsumleq([5,1,-5,-1],[path_00002_00011_00001,path_00002_00011_00002,path_00001_00011_00001,path_00001_00011_00002],aux157)
+weightedsumgeq([5,1,-5,-1],[path_00002_00011_00001,path_00002_00011_00002,path_00001_00011_00001,path_00001_00011_00002],aux157)
+weightedsumleq([5,1,-5,-1],[path_00002_00012_00001,path_00002_00012_00002,path_00001_00012_00001,path_00001_00012_00002],aux158)
+weightedsumgeq([5,1,-5,-1],[path_00002_00012_00001,path_00002_00012_00002,path_00001_00012_00001,path_00001_00012_00002],aux158)
+sumleq([robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006,robot_moves_00002_00007,robot_moves_00002_00008,robot_moves_00002_00009,robot_moves_00002_00010,robot_moves_00002_00011,robot_moves_00002_00012],aux159)
+sumgeq([robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006,robot_moves_00002_00007,robot_moves_00002_00008,robot_moves_00002_00009,robot_moves_00002_00010,robot_moves_00002_00011,robot_moves_00002_00012],aux159)
+sumleq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00001_00007,robot_moves_00001_00008,robot_moves_00001_00009,robot_moves_00001_00010,robot_moves_00001_00011,robot_moves_00001_00012],aux160)
+sumgeq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00001_00007,robot_moves_00001_00008,robot_moves_00001_00009,robot_moves_00001_00010,robot_moves_00001_00011,robot_moves_00001_00012],aux160)
+sumleq([aux52,aux54],aux5)
+sumgeq([aux52,aux54],aux5)
+sumleq([aux56,aux58],aux6)
+sumgeq([aux56,aux58],aux6)
+sumleq([aux60,aux62],aux7)
+sumgeq([aux60,aux62],aux7)
+sumleq([aux64,aux66],aux8)
+sumgeq([aux64,aux66],aux8)
+sumleq([aux68,aux70],aux9)
+sumgeq([aux68,aux70],aux9)
+sumleq([aux72,aux74],aux10)
+sumgeq([aux72,aux74],aux10)
+sumleq([aux76,aux78],aux11)
+sumgeq([aux76,aux78],aux11)
+sumleq([aux80,aux82],aux12)
+sumgeq([aux80,aux82],aux12)
+sumleq([aux84,aux86],aux13)
+sumgeq([aux84,aux86],aux13)
+sumleq([aux88,aux90],aux14)
+sumgeq([aux88,aux90],aux14)
+sumleq([aux92,aux94],aux15)
+sumgeq([aux92,aux94],aux15)
+sumleq([aux96,aux98],aux16)
+sumgeq([aux96,aux98],aux16)
+sumleq([aux100,aux102],aux17)
+sumgeq([aux100,aux102],aux17)
+sumleq([aux104,aux106],aux18)
+sumgeq([aux104,aux106],aux18)
+sumleq([aux108,aux110],aux19)
+sumgeq([aux108,aux110],aux19)
+sumleq([aux112,aux114],aux20)
+sumgeq([aux112,aux114],aux20)
+sumleq([aux116,aux118],aux21)
+sumgeq([aux116,aux118],aux21)
+sumleq([aux120,aux122],aux22)
+sumgeq([aux120,aux122],aux22)
+sumleq([aux124,aux126],aux23)
+sumgeq([aux124,aux126],aux23)
+sumleq([aux128,aux130],aux24)
+sumgeq([aux128,aux130],aux24)
+sumleq([aux132,aux134],aux25)
+sumgeq([aux132,aux134],aux25)
+sumleq([aux136,aux138],aux26)
+sumgeq([aux136,aux138],aux26)
+sumleq([aux140,path_00002_00001_00002],aux27)
+sumgeq([aux140,path_00002_00001_00002],aux27)
+sumleq([aux142,path_00001_00001_00001],aux28)
+sumgeq([aux142,path_00001_00001_00001],aux28)
+weightedsumleq([5,1],[path_00001_00009_00001,path_00001_00009_00002],aux29)
+weightedsumgeq([5,1],[path_00001_00009_00001,path_00001_00009_00002],aux29)
+weightedsumleq([5,1],[path_00001_00007_00001,path_00001_00007_00002],aux30)
+weightedsumgeq([5,1],[path_00001_00007_00001,path_00001_00007_00002],aux30)
+weightedsumleq([5,1],[path_00001_00001_00001,path_00001_00001_00002],aux31)
+weightedsumgeq([5,1],[path_00001_00001_00001,path_00001_00001_00002],aux31)
+weightedsumleq([5,1],[path_00001_00003_00001,path_00001_00003_00002],aux32)
+weightedsumgeq([5,1],[path_00001_00003_00001,path_00001_00003_00002],aux32)
+weightedsumleq([5,1],[path_00002_00003_00001,path_00002_00003_00002],aux33)
+weightedsumgeq([5,1],[path_00002_00003_00001,path_00002_00003_00002],aux33)
+weightedsumleq([5,1],[path_00002_00001_00001,path_00002_00001_00002],aux34)
+weightedsumgeq([5,1],[path_00002_00001_00001,path_00002_00001_00002],aux34)
+weightedsumleq([5,1],[path_00002_00006_00001,path_00002_00006_00002],aux35)
+weightedsumgeq([5,1],[path_00002_00006_00001,path_00002_00006_00002],aux35)
+weightedsumleq([5,1],[path_00001_00011_00001,path_00001_00011_00002],aux36)
+weightedsumgeq([5,1],[path_00001_00011_00001,path_00001_00011_00002],aux36)
+weightedsumleq([5,1],[path_00001_00004_00001,path_00001_00004_00002],aux37)
+weightedsumgeq([5,1],[path_00001_00004_00001,path_00001_00004_00002],aux37)
+weightedsumleq([5,1],[path_00002_00007_00001,path_00002_00007_00002],aux38)
+weightedsumgeq([5,1],[path_00002_00007_00001,path_00002_00007_00002],aux38)
+weightedsumleq([5,1],[path_00002_00010_00001,path_00002_00010_00002],aux39)
+weightedsumgeq([5,1],[path_00002_00010_00001,path_00002_00010_00002],aux39)
+weightedsumleq([5,1],[path_00001_00008_00001,path_00001_00008_00002],aux40)
+weightedsumgeq([5,1],[path_00001_00008_00001,path_00001_00008_00002],aux40)
+weightedsumleq([5,1],[path_00001_00002_00001,path_00001_00002_00002],aux41)
+weightedsumgeq([5,1],[path_00001_00002_00001,path_00001_00002_00002],aux41)
+weightedsumleq([5,1],[path_00002_00008_00001,path_00002_00008_00002],aux42)
+weightedsumgeq([5,1],[path_00002_00008_00001,path_00002_00008_00002],aux42)
+weightedsumleq([5,1],[path_00002_00011_00001,path_00002_00011_00002],aux43)
+weightedsumgeq([5,1],[path_00002_00011_00001,path_00002_00011_00002],aux43)
+weightedsumleq([5,1],[path_00002_00005_00001,path_00002_00005_00002],aux44)
+weightedsumgeq([5,1],[path_00002_00005_00001,path_00002_00005_00002],aux44)
+weightedsumleq([5,1],[path_00001_00005_00001,path_00001_00005_00002],aux45)
+weightedsumgeq([5,1],[path_00001_00005_00001,path_00001_00005_00002],aux45)
+weightedsumleq([5,1],[path_00002_00002_00001,path_00002_00002_00002],aux46)
+weightedsumgeq([5,1],[path_00002_00002_00001,path_00002_00002_00002],aux46)
+weightedsumleq([5,1],[path_00001_00010_00001,path_00001_00010_00002],aux47)
+weightedsumgeq([5,1],[path_00001_00010_00001,path_00001_00010_00002],aux47)
+weightedsumleq([5,1],[path_00002_00004_00001,path_00002_00004_00002],aux48)
+weightedsumgeq([5,1],[path_00002_00004_00001,path_00002_00004_00002],aux48)
+weightedsumleq([5,1],[path_00002_00009_00001,path_00002_00009_00002],aux49)
+weightedsumgeq([5,1],[path_00002_00009_00001,path_00002_00009_00002],aux49)
+weightedsumleq([5,1],[path_00001_00006_00001,path_00001_00006_00002],aux50)
+weightedsumgeq([5,1],[path_00001_00006_00001,path_00001_00006_00002],aux50)
+sumleq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00001_00007,robot_moves_00001_00008,robot_moves_00001_00009,robot_moves_00001_00010,robot_moves_00001_00011,robot_moves_00001_00012,robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006,robot_moves_00002_00007,robot_moves_00002_00008,robot_moves_00002_00009,robot_moves_00002_00010,robot_moves_00002_00011,robot_moves_00002_00012],total_moves)
+sumgeq([robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00002,robot_moves_00001_00003,robot_moves_00001_00004,robot_moves_00001_00005,robot_moves_00001_00006,robot_moves_00001_00007,robot_moves_00001_00008,robot_moves_00001_00009,robot_moves_00001_00010,robot_moves_00001_00011,robot_moves_00001_00012,robot_moves_00002_00000,robot_moves_00002_00001,robot_moves_00002_00002,robot_moves_00002_00003,robot_moves_00002_00004,robot_moves_00002_00005,robot_moves_00002_00006,robot_moves_00002_00007,robot_moves_00002_00008,robot_moves_00002_00009,robot_moves_00002_00010,robot_moves_00002_00011,robot_moves_00002_00012],total_moves)
+sumleq([robot_task_occurance_00001_00001,robot_task_occurance_00002_00001],1)
+sumgeq([robot_task_occurance_00001_00001,robot_task_occurance_00002_00001],1)
+sumleq([robot_task_occurance_00001_00002,robot_task_occurance_00002_00002],1)
+sumgeq([robot_task_occurance_00001_00002,robot_task_occurance_00002_00002],1)
+sumleq([robot_task_occurance_00001_00003,robot_task_occurance_00002_00003],1)
+sumgeq([robot_task_occurance_00001_00003,robot_task_occurance_00002_00003],1)
+sumleq([robot_task_occurance_00001_00004,robot_task_occurance_00002_00004],1)
+sumgeq([robot_task_occurance_00001_00004,robot_task_occurance_00002_00004],1)
+weightedsumleq([2],[aux161],min_moves)
+weightedsumgeq([2],[aux161],min_moves)
+**EOF**

@@ -1,0 +1,77 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE path_00001_00001_00001 #
+{1..2}
+DISCRETE inventory_00001_00001 #
+{0..2}
+DISCRETE interval_00002_00002 #
+{1..2}
+BOOL robot_moves_00001_00000 #
+BOOL robot_moves_00001_00001 #
+BOOL robot_moves_00001_00004 #
+BOOL robot_moves_00002_00004 #
+DISCRETE total_moves #
+{5..8}
+DISCRETE min_moves #
+{4..8}
+DISCRETE aux5 #(4*path_00001_00001_00001 + -3)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux5, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux6 #ElementOne([2, -1, -1, 1, 0], aux5)
+{0..2}
+DISCRETE aux7 #(3 + robot_moves_00002_00004)
+{3..4}
+DISCRETE aux8 #(2 + robot_moves_00001_00000 + robot_moves_00001_00001 + robot_moves_00001_00004)
+{2..5}
+DISCRETE aux9 #min(aux7, aux8)
+{2..4}
+**TUPLELIST**
+robot_pos 2 2
+1 2 
+2 1 
+**VARIABLES**
+ALIAS robot_pos[2,2]=[[1, 2], [2, 1]]
+**TUPLELIST**
+task_dest 2 2
+2 4 
+2 3 
+**VARIABLES**
+ALIAS task_dest[2,2]=[[2, 4], [2, 3]]
+**TUPLELIST**
+map 2 4
+-1 2 -1 -1 
+1 0 0 0 
+**VARIABLES**
+ALIAS map[2,4]=[[-1, 2, -1, -1], [1, 0, 0, 0]]
+**VARIABLES**
+ALIAS task_obj[2]=[1, 2]
+**SEARCH**
+PRINT[[path_00001_00001_00001],[inventory_00001_00001],[interval_00002_00002],[robot_moves_00001_00000],[robot_moves_00001_00001],[robot_moves_00001_00004],[robot_moves_00002_00004],[total_moves],[min_moves]]
+VARORDER STATIC [interval_00002_00002]
+**CONSTRAINTS**
+watchelement_one([2, -1, -1, 1, 0], aux5, aux6)
+min([aux7,aux8],aux9)
+ineq(min_moves, total_moves, 0)
+watched-or({watched-and({w-literal(path_00001_00001_00001,2),w-literal(robot_moves_00001_00000,1)}),watched-and({w-literal(path_00001_00001_00001,1),w-literal(robot_moves_00001_00000,0)})})
+watched-or({watched-and({w-literal(path_00001_00001_00001,2),w-literal(robot_moves_00001_00001,1)}),watched-and({w-literal(path_00001_00001_00001,1),w-literal(robot_moves_00001_00001,0)})})
+watched-or({w-literal(interval_00002_00002,2),watched-and({w-literal(interval_00002_00002,1),w-literal(path_00001_00001_00001,1)})})
+watched-or({w-literal(inventory_00001_00001,2),ineq(1, interval_00002_00002, -1)})
+weightedsumleq([4,1],[path_00001_00001_00001,-3],aux5)
+weightedsumgeq([4,1],[path_00001_00001_00001,-3],aux5)
+sumleq([3,robot_moves_00002_00004],aux7)
+sumgeq([3,robot_moves_00002_00004],aux7)
+sumleq([2,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00004],aux8)
+sumgeq([2,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00004],aux8)
+sumleq([5,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00004,robot_moves_00002_00004],total_moves)
+sumgeq([5,robot_moves_00001_00000,robot_moves_00001_00001,robot_moves_00001_00004,robot_moves_00002_00004],total_moves)
+weightedsumleq([2],[aux9],min_moves)
+weightedsumgeq([2],[aux9],min_moves)
+**EOF**

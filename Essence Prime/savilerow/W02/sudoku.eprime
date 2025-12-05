@@ -1,0 +1,37 @@
+language ESSENCE' 1.0
+letting   RANGE be domain int(1..9)
+letting   VALUES be domain int(0..9)
+
+given     values : matrix indexed by [RANGE,RANGE] of VALUES
+
+find      field: matrix indexed by [RANGE, RANGE] of RANGE
+
+such that
+  $ all rows have to be different
+  forAll row : RANGE .
+       allDiff(field[row,..]),
+
+  $ all columns have to be different
+  forAll col : RANGE .
+       allDiff(field[..,col]),	 
+
+  $ all 3x3 blocks have to be different
+  $ i and j represent which 3x3 you're in
+  $ inner loop ensures 3x3 vals are unique 
+      forAll i,j : int(0..2) . 
+           forAll col1,col2,row1,row2 : int(1..3) .
+	       ((col1 != col2) /\ (row1 != row2)) -> 
+       		(field[row1+(i*3), col1+(j*3)] 
+                                != field[row2+(i*3), col2+(j*3)]),
+
+  $ we have to set some initial values, any non-zero implies 
+  $ every val in the matrix "field" to be the same in "values"
+  forAll row,col : RANGE . 
+       (values[row,col] > 0) ->
+               (field[row,col] = values[row,col])
+
+$ alternative using allDiff
+$ all 3x3 subsquares have to be all-different
+$ i,j indicate the top-left corner of the subsquare.
+$ forAll i,j : int(1,4,7) .
+$ allDiff([field[k,l] | k : int(i..i+2), l : int(j..j+2)]) 
